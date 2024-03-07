@@ -1,0 +1,607 @@
+Script started on 2024-03-07 14:14:30+02:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="232" LINES="55"]
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                        ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications/todo-app/todo-backend\[0m[27m[24m[J[38;5;237m----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications/todo-app/todo-backend [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[139C [38;5;237mtturna@tturna-eos[00m[157D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74C[K[139C [38;5;237mtturna@tturna-eos[00m[157Dnn[90mvim docker-compose.yml[39m[22D
+[J[0;2mshell function[0m
+[0mnvm_prompt_info
+[0;2mdirectory[0m
+[J[01;34mnode_modules[0m/[J[4A[0m[27m[24m[74Cn[90mvim docker-compose.yml[39m[K[116C [38;5;237mtturna@tturna-eos[00m[156Dn[39mv
+[J[0;2mshell function[0m
+[J[0mnvm_prompt_info[J[A[A[0m[27m[24m[74Cnv[90mim docker-compose.yml[39m[K[116C [38;5;237mtturna@tturna-eos[00m[155D[39mi[39mm[39m 
+[J[0;2mdirectory[0m
+[01;34mbin[0m/           [01;34mmongo[0m/         [01;34mnode_modules[0m/  [01;34mredis[0m/         [01;34mroutes[0m/        [01;34mutil[0m/        
+[0;2mfile[0m
+[J[0mapp.js             [JDockerfile         [Jpackage.json       [Jpackage-lock.json  [JREADME.md        [J[4A[0m[27m[24m[74Cnvim [90mdocker-compose.yml[39m[K[116C [38;5;237mtturna@tturna-eos[00m[152D[39md
+[J[0;2mfile[0m
+[J[0mDockerfile[J[A[A[0m[27m[24m[74Cnvim d[90mocker-compose.yml[39m[K[116C [38;5;237mtturna@tturna-eos[00m[151D[39mo
+[J[0;2mfile[0m
+[J[0mDockerfile[J[A[A[0m[27m[24m[74Cnvim do[90mcker-compose.yml[39m[K[116C [38;5;237mtturna@tturna-eos[00m[150D[39mc[39mk
+[J[0;2mfile[0m
+[J[0mDockerfile[J[A[A[0m[27m[24m[74Cnvim dock[90mer-compose.yml[39m[K[116C [38;5;237mtturna@tturna-eos[00m[148D[39me[39mr
+[J[0;2mfile[0m
+[J[0mDockerfile[J[A[A[0m[27m[24m[74Cnvim docker[90m-compose.yml[39m[K[116C [38;5;237mtturna@tturna-eos[00m[146D[39m-
+[J[0;2mfile[0m
+[J[0mDockerfile[J[A[A[0m[27m[24m[74Cnvim docker-[90mcompose.yml[39m[K[116C [38;5;237mtturna@tturna-eos[00m[145D[39mc[39mo[39mm[39mp[39mo[39ms[39me
+[J[J[0;2mno matching `file', `directory', `ancestor directory', or `recent directory' completions[0m[A[0m[27m[24m[74Cnvim docker-compose[90m.yml[39m[K[116C [38;5;237mtturna@tturna-eos[00m[138D[39ml[39m [39m [39m 
+[J[J[0;2mno matching `file', `directory', `ancestor directory', or `recent directory' completions[0m[A[0m[27m[24m[74Cnvim docker-composel[K[119C [38;5;237mtturna@tturna-eos[00m[137D [90m.yml[39m
+[J[J[0;2mno matching `file', `directory', `ancestor directory', or `recent directory' completions[0m[A[0m[27m[24m[74Cnvim docker-compose[90m.yml[39m[K[116C [38;5;237mtturna@tturna-eos[00m[138D[39m.
+[J[J[0;2mno matching `file', `directory', `ancestor directory', or `recent directory' completions[0m[A[0m[27m[24m[74Cnvim docker-compose.[90myml[39m[K[116C [38;5;237mtturna@tturna-eos[00m[137D[39my[39mt[39m 
+[J[J[0;2mno matching `file', `directory', `ancestor directory', or `recent directory' completions[0m[A[0m[27m[24m[74Cnvim docker-compose.yt[K[117C [38;5;237mtturna@tturna-eos[00m[135D [90mml[39m
+[J[J[0;2mno matching `file', `directory', `ancestor directory', or `recent directory' completions[0m[A[0m[27m[24m[74Cnvim docker-compose.y[90mml[39m[K[116C [38;5;237mtturna@tturna-eos[00m[136D[39mm[39ml
+[J[J[0;2mno matching `file', `directory', `ancestor directory', or `recent directory' completions[0m[A[0m[27m[24m[74Cnvim docker-compose.yml[K[116C [38;5;237mtturna@tturna-eos[00m[134D[?1l>[?2004l
+[J[A[97C
+[J]2;nvim docker-compose.yml]1;nvim[?1049h[22;0;0t[?1h=[H[2J]11;?[?2004h[?u[c[?25h[?25l(B[m[H[2J[>4;2m[54BError detected while processing /home/tturna/.config/nvim/init.lua:[K[49;55r[49;1H[38;2;205;206;207m[6M[r[48;1H                                                                                                                                                                                                                                        
+
+E5113: Error while calling lua chunk: vim/_editor.lua:0: /home/tturna/.config/nvim/init.lua..nvim_exec2() called at /home/tturna/.config/nvim/init.lua:0: Vim(source):E484: Can't open file .ideavimrc[K
+stack traceback:[K
+        [C]: in function 'nvim_exec2'[K
+        vim/_editor.lua: in function 'cmd'[K
+        /home/tturna/.config/nvim/init.lua:4: in main chunk[K
+Press ENTER or type command to continue[K]112[2 q]112[2 q[H[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+[K
+Error detected while processing /home/tturna/.config/nvim/init.lua:[K
+E5113: Error while calling lua chunk: vim/_editor.lua:0: /home/tturna/.config/nvim/init.lua..nvim_exec2() called at /home/tturna/.config/nvim/init.lua:0: Vim(source):E484: Can't open file .ideavimrc[K
+stack traceback:[K
+        [C]: in function 'nvim_exec2'[K
+        vim/_editor.lua: in function 'cmd'[K
+        /home/tturna/.config/nvim/init.lua:4: in main chunk[K
+Press ENTER or type command to continue[K[?25h[?25l[?1004h[?25h[?25l[H[K
+(B[m[38;2;25;35;48m~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+~[K
+(B[m[38;2;174;175;176m[48;2;19;26;36mdocker-compose.yml[196X[196C0,0-1          All(B[m[38;2;205;206;207m
+[J[?1002h[?1006h[H[?25h[?25l[55;222Hv[H[?25h[?25l]112[2 q[?25h[?25l[55;222H1[H[?25h[?25l[54B(B[0;1m[38;2;219;192;116m-- VISUAL --[209C(B[m[38;2;205;206;207m [210D[?25h[?25l[209C1[H[?25h[?25l[55;222He[H[?25h[?25l[55;222H1[H[?25h[?25l[55;222Hr]112[4 q[H[?25h[?25l[55;223Hs[H[?25h[?25l[55;222H  [55;1H[12X]112[2 q[H[?25h[?25l[55;222Hi[H[?25h[?25l[55;222H ]112[6 q[H[?25h[?25l[54B(B[0;1m[38;2;219;192;116m-- INSERT --[?25h[?25l[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m1  [H[?25h[?25l(B[m[38;2;205;206;207mo[54;20H(B[m[38;2;174;175;176m[48;2;19;26;36m[+][192C1,2[1;2H[?25h[?25l(B[m[38;2;205;206;207mn[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m3[1;3H[?25h[?25l(B[m[38;2;205;206;207m [54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m2[1;2H[?25h[?25l[H(B[m[38;2;205;206;207m [54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m1[H[?25h[?25l(B[m[38;2;205;206;207mv[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m2[1;2H[?25h[?25l(B[m[38;2;205;206;207me[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m3[1;3H[?25h[?25l(B[m[38;2;205;206;207mr[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m4[1;4H[?25h[?25l(B[m[38;2;205;206;207ms[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m5[1;5H[?25h[?25l(B[m[38;2;205;206;207mi[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m6[1;6H[?25h[?25l(B[m[38;2;205;206;207mo[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m7[1;7H[?25h[?25l(B[m[38;2;205;206;207mn[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m8[1;8H[?25h[?25l[H(B[m[38;2;99;205;207mversion(B[m[38;2;134;171;220m:[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m9[1;9H[?25h[?25l[54;217H10[1;10H[?25h[?25l(B[m[38;2;129;178;154m'[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m1[1;11H[?25h[?25l(B[m[38;2;129;178;154m3[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m2[1;12H[?25h[?25l(B[m[38;2;129;178;154m.[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m3[1;13H[?25h[?25l(B[m[38;2;129;178;154m7[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m4[1;14H[?25h[?25l(B[m[38;2;205;206;207m [54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m3[1;13H[?25h[?25l(B[m[38;2;129;178;154m8[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m4[1;14H[?25h[?25l(B[m[38;2;129;178;154m'[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m5[1;15H[?25h[?25l
+(B[m[38;2;205;206;207m  [K[54;215H(B[m[38;2;174;175;176m[48;2;19;26;36m2,3 [2;3H[?25h[?25l
+(B[m[38;2;205;206;207m  [K[54;215H(B[m[38;2;174;175;176m[48;2;19;26;36m3[3;3H[?25h[?25l[54;217H1[51A[?25h[?25l(B[m[38;2;205;206;207ms[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m2[3;2H[?25h[?25l(B[m[38;2;205;206;207me[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m3[3;3H[?25h[?25l(B[m[38;2;205;206;207mr[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m4[3;4H[?25h[?25l(B[m[38;2;205;206;207mv[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m5[3;5H[?25h[?25l(B[m[38;2;205;206;207mi[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m6[3;6H[?25h[?25l(B[m[38;2;205;206;207mc[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m7[3;7H[?25h[?25l(B[m[38;2;205;206;207me[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m8[3;8H[?25h[?25l(B[m[38;2;205;206;207ms[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m9[3;9H[?25h[?25l[3;1H(B[m[38;2;99;205;207mservices(B[m[38;2;134;171;220m:[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m10[3;10H[?25h[?25l
+(B[m[38;2;205;206;207m  [K[54;215H(B[m[38;2;174;175;176m[48;2;19;26;36m4,3 [4;3H[?25h[?25l(B[m[38;2;205;206;207ma[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m4[4;4H[?25h[?25l(B[m[38;2;205;206;207mp[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m5[4;5H[?25h[?25l(B[m[38;2;205;206;207mp[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m6[4;6H[?25h[?25l(B[m[38;2;99;205;207mapp(B[m[38;2;134;171;220m:[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m7[4;7H[?25h[?25l
+(B[m[38;2;205;206;207m    [K[54;215H(B[m[38;2;174;175;176m[48;2;19;26;36m5,5[5;5H[?25h[?25l(B[m[38;2;205;206;207mi[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m6[5;6H[?25h[?25l(B[m[38;2;205;206;207mm[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m7[5;7H[?25h[?25l(B[m[38;2;205;206;207ma[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m8[5;8H[?25h[?25l(B[m[38;2;205;206;207mg[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m9[5;9H[?25h[?25l(B[m[38;2;205;206;207me[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m10[5;10H[?25h[?25l[5D(B[m[38;2;99;205;207mimage(B[m[38;2;134;171;220m:[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m1[5;11H[?25h[?25l[54;218H2[5;12H[?25h[?25l(B[m[38;2;205;206;207mt[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m3[5;13H[?25h[?25l(B[m[38;2;205;206;207mo[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m4[5;14H[?25h[?25l(B[m[38;2;205;206;207md[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m5[5;15H[?25h[?25l(B[m[38;2;205;206;207mo[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m6[5;16H[?25h[?25l(B[m[38;2;205;206;207m-[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m7[5;17H[?25h[?25l(B[m[38;2;205;206;207mb[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m8[5;18H[?25h[?25l(B[m[38;2;205;206;207ma[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m9[5;19H[?25h[?25l(B[m[38;2;205;206;207mc[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m20[5;20H[?25h[?25l(B[m[38;2;205;206;207mk[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m1[5;21H[?25h[?25l
+(B[m[38;2;205;206;207m      [K[54;215H(B[m[38;2;174;175;176m[48;2;19;26;36m6,7 [6;7H[?25h[?25l[54;217H5[6;5H[?25h[?25l(B[m[38;2;205;206;207mb[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m6[6;6H[?25h[?25l(B[m[38;2;205;206;207mu[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m7[6;7H[?25h[?25l(B[m[38;2;205;206;207mi[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m8[6;8H[?25h[?25l(B[m[38;2;205;206;207ml[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m9[6;9H[?25h[?25l(B[m[38;2;205;206;207md[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m10[6;10H[?25h[?25l[5D(B[m[38;2;99;205;207mbuild(B[m[38;2;134;171;220m:[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m1[6;11H[?25h[?25l[54;218H2[6;12H[?25h[?25l(B[m[38;2;205;206;207m.[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m3[6;13H[?25h[?25l
+(B[m[38;2;205;206;207m      [K[54;215H(B[m[38;2;174;175;176m[48;2;19;26;36m7,7 [7;7H[?25h[?25l[54;217H5[7;5H[?25h[?25l(B[m[38;2;205;206;207mp[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m6[7;6H[?25h[?25l(B[m[38;2;205;206;207mo[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m7[7;7H[?25h[?25l(B[m[38;2;205;206;207mr[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m8[7;8H[?25h[?25l(B[m[38;2;205;206;207mt[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m9[7;9H[?25h[?25l(B[m[38;2;205;206;207ms[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m10[7;10H[?25h[?25l[5D(B[m[38;2;99;205;207mports(B[m[38;2;134;171;220m:[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m1[7;11H[?25h[?25l
+(B[m[38;2;205;206;207m      [K[54;215H(B[m[38;2;174;175;176m[48;2;19;26;36m8,7 [8;7H[?25h[?25l(B[m[38;2;205;206;207m-[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m8[8;8H[?25h[?25l(B[m[38;2;186;161;226m- [54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m9[8;9H[?25h[?25l(B[m[38;2;244;162;97m4[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m10[8;10H[?25h[?25l(B[m[38;2;244;162;97m9[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m1[8;11H[?25h[?25l(B[m[38;2;205;206;207m [54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m0[8;10H[?25h[?25l(B[m[38;2;205;206;207m [54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m9 [8;9H[?25h[?25l(B[m[38;2;244;162;97m3[54;217H(B[m[38;2;174;175;176m[48;2;19;26;36m10[8;10H[?25h[?25l(B[m[38;2;244;162;97m0[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m1[8;11H[?25h[?25l(B[m[38;2;244;162;97m0[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m2[8;12H[?25h[?25l(B[m[38;2;244;162;97m0[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m3[8;13H[?25h[?25l(B[m[38;2;99;205;207m3000(B[m[38;2;134;171;220m:[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m4[8;14H[?25h[?25l[5D(B[m[38;2;244;162;97m3000:3[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m5[8;15H[?25h[?25l(B[m[38;2;244;162;97m0[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m6[8;16H[?25h[?25l[7D(B[m[38;2;205;206;207m3000:300[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m7[8;17H[?25h[?25l(B[m[38;2;205;206;207m0[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m8[8;18H[?25h[?25l(B[m[38;2;205;206;207m[47B[12X[54;218H(B[m[38;2;174;175;176m[48;2;19;26;36m7]112[2 q[8;17H[?25h[?25l[55;222H(B[m[38;2;205;206;207m:[8;17H[?25h[?25l[55;222H [55;1H:]112[2 q[?1002l[?1006l[?25h[?25lw[?25h[?25lq[?25h[?25l[55;1H[?25h[?25l"docker-compose.yml"]112[2 q[?1002h[?1006h[?25h[?25l[C[New] 8L, 96B written[?25h[?25l[55;1H]112[2 q[?1002l[?1006l(B[m[?25h[?1l>[>4;0m[?1049l[23;0;0t[?2004l[?1004l[?25h[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                        ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications/todo-app/todo-backend\[0m[27m[24m[J[38;5;237m----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications/todo-app/todo-backend [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[139C [38;5;237mtturna@tturna-eos[00m[157D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74C[K[139C [38;5;237mtturna@tturna-eos[00m[157Ddd[90mocker compose up[39m[16D
+[J[0;2mshell function[0m
+[J[0mdebman                         [Jdefault                        [Jdetect-clipboard               [Jdiff                           [Jdman                           [Jdown-line-or-beginning-search[J[A[A[0m[27m[24m[74Cd[90mocker compose up[39m[K[122C [38;5;237mtturna@tturna-eos[00m[156Dd[39mo
+[J[0;2mshell function[0m
+[J[0mdown-line-or-beginning-search[J[A[A[0m[27m[24m[74Cdo[90mcker compose up[39m[K[122C [38;5;237mtturna@tturna-eos[00m[155D[39mc[39mk[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;2mexternal command[0m
+[0mdocker          docker-compose  dockerd         docker-init     docker-proxy  
+[J[0;2mcommon substring:[0m [30m[103mdocker[39m[49m[3A[0m[27m[24m[74Cdock[90mer compose up[39m[K[122C [38;5;237mtturna@tturna-eos[00m[153D[39me[39mr
+[J[0;2mexternal command[0m
+[J[0mdocker-compose  [Jdockerd         [Jdocker-init     [Jdocker-proxy  [J[A[A[0m[27m[24m[74Cdocker[90m compose up[39m[K[122C [38;5;237mtturna@tturna-eos[00m[151D[39m [39mc[39mo[39mm[39mp[39mo
+[J[0;2mcompletions[0m
+[J[0mcompose[J[A[A[0m[27m[24m[74Cdocker compo[90mse up[39m[K[122C [38;5;237mtturna@tturna-eos[00m[145D[39ms[90ms[90me[90m [90mu[90mp[39m[39me[39m [39m [39m [39m  [90mup[39m[30m[106m[39m[49m[30m[106m[39m[49m
+[J[0;2mcompletions[0m
+[0mattach  -- Attach local standard input, output, and error streams to a service's running container                                                                                                                                     
+build   -- Build or rebuild services                                                                                                                                                                                                   
+config  -- Parse, resolve and render compose file in canonical format                                                                                                                                                                  
+cp      -- Copy files/folders between a service container and the local filesystem                                                                                                                                                     
+create  -- Creates containers for a service                                                                                                                                                                                            
+down    -- Stop and remove containers, networks                                                                                                                                                                                        
+events  -- Receive real time events from containers                                                                                                                                                                                    
+exec    -- Execute a command in a running container                                                                                                                                                                                    
+images  -- List images used by the created containers                                                                                                                                                                                  
+kill    -- Force stop service containers                                                                                                                                                                                               
+logs    -- View output from containers                                                                                                                                                                                                 
+ls      -- List running compose projects                                                                                                                                                                                               
+pause   -- Pause services                                                                                                                                                                                                              
+port    -- Print the public port for a port binding                                                                                                                                                                                    
+[J[30m[106m(MORE)[39m[49m[16A[0m[27m[24m[74Cdocker compose [90mup[39m[K[122C [38;5;237mtturna@tturna-eos[00m[142D[39m-[39m [90md up[39m
+[J[0;2mcompletions[0m
+[0m--ansi                   -- Control when to print ANSI control characters ("never"|"always"|"auto")                                                                                                                                   
+--compatibility          -- Run compose in backward compatibility mode                                                                                                                                                                
+--dry-run                -- Execute command in dry run mode                                                                                                                                                                           
+--env-file               -- Specify an alternate environment file                                                                                                                                                                     
+--file               -f  -- Compose configuration files                                                                                                                                                                               
+--parallel               -- Control max parallelism, -1 for unlimited                                                                                                                                                                 
+--profile                -- Specify a profile to enable                                                                                                                                                                               
+--progress               -- Set type of progress output (auto, tty, plain, quiet)                                                                                                                                                     
+--project-directory      -- Specify an alternate working directory                                                                                                                                                                    
+[J--project-name       [J-p  [J-- Project name                                                                                                                                                                                              [J[11A[0m[27m[24m[74Cdocker compose -[90md up[39m[K[119C [38;5;237mtturna@tturna-eos[00m[141D[39md[90md[90m [90mu[90mp[39m[39m [39m [39m [39m [90mup[39m
+[J[0;2mdirectory[0m
+[01;34mbin[0m/                [01;34mmongo[0m/              [01;34mnode_modules[0m/       [01;34mredis[0m/              [01;34mroutes[0m/             [01;34mutil[0m/             
+[0;2mfilename[0m
+[J[0mapp.js              [Jdocker-compose.yml  [JDockerfile          [Jpackage.json        [Jpackage-lock.json   [JREADME.md         [J[4A[0m[27m[24m[74Cdocker compose -d [90mup[39m[K[119C [38;5;237mtturna@tturna-eos[00m[139D[39mu[39mp
+[J[0;2mdirectory[0m
+[01;34mutil[0m/
+[0;2mfilename[0m
+[J[0mapp.js             [Jpackage.json       [Jpackage-lock.json[J[4A[0m[27m[24m[74Cdocker compose -d up[K[119C [38;5;237mtturna@tturna-eos[00m[137D[?1l>[?2004l
+[J[A[94C
+[J]2;docker compose -d up]1;dockerunknown shorthand flag: 'd' in -d
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                        ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications/todo-app/todo-backend\[0m[27m[24m[J[38;5;237m----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications/todo-app/todo-backend [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[135C[31m16 ↵[00m [38;5;237mtturna@tturna-eos[00m[157D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74C[K[135C[31m16 ↵[00m [38;5;237mtturna@tturna-eos[00m[157Ddd[90mocker compose -d up[39m[19D
+[J[0;2mshell function[0m
+[J[0mdebman                         [Jdefault                        [Jdetect-clipboard               [Jdiff                           [Jdman                           [Jdown-line-or-beginning-search[J[A[A[0m[27m[24m[74Cd[90mocker compose -d up[39m[K[115C[31m16 ↵[00m [38;5;237mtturna@tturna-eos[00m[156Dd[39mo
+[J[0;2mshell function[0m
+[J[0mdown-line-or-beginning-search[J[A[A[0m[27m[24m[74Cdo[90mcker compose -d up[39m[K[115C[31m16 ↵[00m [38;5;237mtturna@tturna-eos[00m[155D[39mc[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;2mexternal command[0m
+[0mdocker          docker-compose  dockerd         docker-init     docker-proxy  
+[J[0;2mcommon substring:[0m [30m[103mdocker[39m[49m[3A[0m[27m[24m[74Cdoc[90mker compose -d up[39m[K[115C[31m16 ↵[00m [38;5;237mtturna@tturna-eos[00m[154D[39mk[39me[39mr
+[J[0;2mexternal command[0m
+[J[0mdocker-compose  [Jdockerd         [Jdocker-init     [Jdocker-proxy  [J[A[A[0m[27m[24m[74Cdocker[90m compose -d up[39m[K[115C[31m16 ↵[00m [38;5;237mtturna@tturna-eos[00m[151D[39m 
+[J[0;2mcompletions[0m
+[0mattach   build   builder  checkpoint  commit  compose  config  container  context  cp       create  diff  events  exec  export  help    history  image  images  import  info  inspect  kill    load  login  logout  logs     manifest
+network  node    pause    plugin      port    ps       pull    push       rename   restart  rm      rmi   run     save  search  secret  service  stack  start   stats   stop  swarm    system  tag   top    trust   unpause  update
+[Jversion  [Jvolume  [Jwait     [J                                                                                                                                                         [4A[0m[27m[24m[74Cdocker [90mcompose -d up[39m[K[115C[31m16 ↵[00m [38;5;237mtturna@tturna-eos[00m[150D[39mc[39mo[39mm
+[J[0;2mcompletions[0m
+[J[0mcommit   [Jcompose[J[A[A[0m[27m[24m[74Cdocker com[90mpose -d up[39m[K[115C[31m16 ↵[00m [38;5;237mtturna@tturna-eos[00m[147D[39mp[39mo
+[J[0;2mcompletions[0m
+[J[0mcompose[J[A[A[0m[27m[24m[74Cdocker compo[90mse -d up[39m[K[115C[31m16 ↵[00m [38;5;237mtturna@tturna-eos[00m[145D[39ms[90ms[90me[90m [90m-[90md[90m [90mu[90mp[39m[8D[39me[39m [39m [39m [39m [39m [39m [39m  [90m-d up[39m[30m[106m[39m[49m[30m[106m[39m[49m
+[J[0;2mcompletions[0m
+[0mattach  -- Attach local standard input, output, and error streams to a service's running container                                                                                                                                     
+build   -- Build or rebuild services                                                                                                                                                                                                   
+config  -- Parse, resolve and render compose file in canonical format                                                                                                                                                                  
+cp      -- Copy files/folders between a service container and the local filesystem                                                                                                                                                     
+create  -- Creates containers for a service                                                                                                                                                                                            
+down    -- Stop and remove containers, networks                                                                                                                                                                                        
+events  -- Receive real time events from containers                                                                                                                                                                                    
+exec    -- Execute a command in a running container                                                                                                                                                                                    
+images  -- List images used by the created containers                                                                                                                                                                                  
+kill    -- Force stop service containers                                                                                                                                                                                               
+logs    -- View output from containers                                                                                                                                                                                                 
+ls      -- List running compose projects                                                                                                                                                                                               
+pause   -- Pause services                                                                                                                                                                                                              
+port    -- Print the public port for a port binding                                                                                                                                                                                    
+[J[30m[106m(MORE)[39m[49m[16A[0m[27m[24m[74Cdocker compose [90m-d up[39m[K[115C[31m16 ↵[00m [38;5;237mtturna@tturna-eos[00m[142D[39mu[39m [39m [39m [39m p -[90md[39m[39md
+[J[0;2mcompletions[0m
+[J[0m-d  -- Detached mode: Run containers in the background[J[A[A[0m[27m[24m[74Cdocker compose up -d[K[115C[31m16 ↵[00m [38;5;237mtturna@tturna-eos[00m[137D[?1l>[?2004l
+[J[A[94C
+[J]2;docker compose up -d]1;docker[1A[1B[0G[?25l[+] Running 0/0
+ [33m⠋[0m Network todo-backend_default  Creating                                                                                                                                                                                          [34m0.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠙[0m Network todo-backend_default  Creating                                                                                                                                                                                          [34m0.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠹[0m Network todo-backend_default  Creating                                                                                                                                                                                          [34m0.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠸[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m0.4s [0m
+ [33m⠋[0m Container todo-backend-app-1  Creating                                                                                                                                                                                          [34m0.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ [33m⠼[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m0.5s [0m
+ [33m⠙[0m Container todo-backend-app-1  Creating                                                                                                                                                                                          [34m0.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ [33m⠴[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m0.6s [0m
+ [33m⠹[0m Container todo-backend-app-1  Creating                                                                                                                                                                                          [34m0.3s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ [33m⠦[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m0.7s [0m
+ [33m⠸[0m Container todo-backend-app-1  Creating                                                                                                                                                                                          [34m0.4s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ [33m⠧[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m0.8s [0m
+ [33m⠼[0m Container todo-backend-app-1  Creating                                                                                                                                                                                          [34m0.5s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ [33m⠇[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m0.9s [0m
+ [33m⠴[0m Container todo-backend-app-1  Creating                                                                                                                                                                                          [34m0.6s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ [33m⠏[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m1.0s [0m
+ [33m⠦[0m Container todo-backend-app-1  Creating                                                                                                                                                                                          [34m0.7s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ [33m⠋[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m1.1s [0m
+ [33m⠧[0m Container todo-backend-app-1  Creating                                                                                                                                                                                          [34m0.8s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ [33m⠙[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m1.2s [0m
+ [33m⠇[0m Container todo-backend-app-1  Creating                                                                                                                                                                                          [34m0.9s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ [33m⠹[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m1.3s [0m
+ [33m⠏[0m Container todo-backend-app-1  Creating                                                                                                                                                                                          [34m1.0s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ [33m⠸[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m1.4s [0m
+ [33m⠋[0m Container todo-backend-app-1  Starting                                                                                                                                                                                          [34m1.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ [33m⠼[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m1.5s [0m
+ [33m⠙[0m Container todo-backend-app-1  Starting                                                                                                                                                                                          [34m1.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ [33m⠴[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m1.6s [0m
+ [33m⠹[0m Container todo-backend-app-1  Starting                                                                                                                                                                                          [34m1.3s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ [33m⠦[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m1.7s [0m
+ [33m⠸[0m Container todo-backend-app-1  Starting                                                                                                                                                                                          [34m1.4s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ [33m⠧[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m1.8s [0m
+ [33m⠼[0m Container todo-backend-app-1  Starting                                                                                                                                                                                          [34m1.5s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ [33m⠇[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m1.9s [0m
+ [33m⠴[0m Container todo-backend-app-1  Starting                                                                                                                                                                                          [34m1.6s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ [33m⠏[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m2.0s [0m
+ [33m⠦[0m Container todo-backend-app-1  Starting                                                                                                                                                                                          [34m1.7s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ [33m⠋[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m2.1s [0m
+ [33m⠧[0m Container todo-backend-app-1  Starting                                                                                                                                                                                          [34m1.8s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ [33m⠙[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m2.2s [0m
+ [33m⠇[0m Container todo-backend-app-1  Starting                                                                                                                                                                                          [34m1.9s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+ [33m⠹[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m2.3s [0m
+ [33m⠏[0m Container todo-backend-app-1  Starting                                                                                                                                                                                          [34m2.0s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [33m⠸[0m Network todo-backend_default  Created                                                                                                                                                                                           [34m2.3s [0m
+ [32m✔[0m Container todo-backend-app-1  [32mStarted[0m                                                                                                                                                                                           [34m2.0s [0m
+[?25h[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                        ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications/todo-app/todo-backend\[0m[27m[24m[J[38;5;237m----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications/todo-app/todo-backend [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[139C [38;5;237mtturna@tturna-eos[00m[157D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74C[K[139C [38;5;237mtturna@tturna-eos[00m[157Ddd[90mocker compose up -d[39m[19D
+[J[0;2mshell function[0m
+[J[0mdebman                         [Jdefault                        [Jdetect-clipboard               [Jdiff                           [Jdman                           [Jdown-line-or-beginning-search[J[A[A[0m[27m[24m[74Cd[90mocker compose up -d[39m[K[119C [38;5;237mtturna@tturna-eos[00m[156Dd[39mo
+[J[0;2mshell function[0m
+[J[0mdown-line-or-beginning-search[J[A[A[0m[27m[24m[74Cdo[90mcker compose up -d[39m[K[119C [38;5;237mtturna@tturna-eos[00m[155D[39mc[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;2mexternal command[0m
+[0mdocker          docker-compose  dockerd         docker-init     docker-proxy  
+[J[0;2mcommon substring:[0m [30m[103mdocker[39m[49m[3A[0m[27m[24m[74Cdoc[90mker compose up -d[39m[K[119C [38;5;237mtturna@tturna-eos[00m[154D[39mk[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;2mexternal command[0m
+[0mdocker          docker-compose  dockerd         docker-init     docker-proxy  
+[J[0;2mcommon substring:[0m [30m[103mdocker[39m[49m[3A[0m[27m[24m[74Cdock[90mer compose up -d[39m[K[119C [38;5;237mtturna@tturna-eos[00m[153D[39me[39mr[39m 
+[J[0;2mcompletions[0m
+[0mattach   build   builder  checkpoint  commit  compose  config  container  context  cp       create  diff  events  exec  export  help    history  image  images  import  info  inspect  kill    load  login  logout  logs     manifest
+network  node    pause    plugin      port    ps       pull    push       rename   restart  rm      rmi   run     save  search  secret  service  stack  start   stats   stop  swarm    system  tag   top    trust   unpause  update
+[Jversion  [Jvolume  [Jwait     [J                                                                                                                                                         [4A[0m[27m[24m[74Cdocker [90mcompose up -d[39m[K[119C [38;5;237mtturna@tturna-eos[00m[150D[39mc[39mo
+[J[0;2mcompletions[0m
+[J[0mcommit     [Jcompose    [Jconfig     [Jcontainer  [Jcontext  [J[A[A[0m[27m[24m[74Cdocker co[90mmpose up -d[39m[K[119C [38;5;237mtturna@tturna-eos[00m[148D[39mm[39mp[39mo
+[J[0;2mcompletions[0m
+[J[0mcompose[J[A[A[0m[27m[24m[74Cdocker compo[90mse up -d[39m[K[119C [38;5;237mtturna@tturna-eos[00m[145D[39ms[39me
+[J[0;2mcompletions[0m
+[J[0mcompose[J[A[A[0m[27m[24m[74Cdocker compose[90m up -d[39m[K[119C [38;5;237mtturna@tturna-eos[00m[143D[39m [39md[39m [39m [39m [39m own[?1l>[?2004l
+[J[A[93C
+[J]2;docker compose down]1;docker[1A[1B[0G[?25l[+] Running 0/0
+ [33m⠋[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m0.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠙[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m0.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠹[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m0.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠸[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m0.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠼[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m0.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠴[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m0.6s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠦[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m0.7s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠧[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m0.8s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠇[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m0.9s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠏[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m1.0s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠋[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m1.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠙[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m1.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠹[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m1.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠸[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m1.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠼[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m1.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠴[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m1.6s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠦[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m1.7s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠧[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m1.8s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠇[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m1.9s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠏[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m2.0s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠋[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m2.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠙[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m2.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠹[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m2.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠸[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m2.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠼[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m2.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠴[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m2.6s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠦[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m2.7s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠧[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m2.8s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠇[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m2.9s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠏[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m3.0s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠋[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m3.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠙[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m3.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠹[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m3.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠸[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m3.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠼[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m3.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠴[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m3.6s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠦[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m3.7s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠧[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m3.8s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠇[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m3.9s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠏[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m4.0s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠋[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m4.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠙[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m4.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠹[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m4.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠸[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m4.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠼[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m4.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠴[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m4.6s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠦[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m4.7s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠧[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m4.8s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠇[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m4.9s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠏[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m5.0s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠋[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m5.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠙[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m5.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠹[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m5.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠸[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m5.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠼[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m5.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠴[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m5.6s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠦[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m5.7s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠧[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m5.8s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠇[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m5.9s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠏[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m6.0s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠋[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m6.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠙[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m6.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠹[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m6.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠸[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m6.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠼[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m6.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠴[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m6.6s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠦[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m6.7s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠧[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m6.8s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠇[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m6.9s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠏[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m7.0s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠋[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m7.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠙[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m7.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠹[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m7.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠸[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m7.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠼[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m7.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠴[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m7.6s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠦[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m7.7s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠧[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m7.8s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠇[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m7.9s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠏[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m8.0s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠋[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m8.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠙[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m8.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠹[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m8.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠸[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m8.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠼[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m8.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠴[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m8.6s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠦[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m8.7s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠧[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m8.8s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠇[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m8.9s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠏[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m9.0s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠋[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m9.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠙[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m9.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠹[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m9.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠸[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m9.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠼[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m9.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠴[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m9.6s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠦[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m9.7s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠧[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m9.8s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠇[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                          [34m9.9s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠏[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                         [34m10.0s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠋[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                         [34m10.1s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠙[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                         [34m10.2s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠹[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                         [34m10.3s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠸[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                         [34m10.4s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠼[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                         [34m10.5s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠴[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                         [34m10.6s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠦[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                         [34m10.7s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠧[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                         [34m10.8s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠇[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                         [34m10.9s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠏[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                         [34m11.0s [0m
+[?25h[1A[1A[0G[?25l[+] Running 0/1
+ [33m⠋[0m Container todo-backend-app-1  Stopping                                                                                                                                                                                         [34m11.1s [0m
+[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+ [32m✔[0m Container todo-backend-app-1  [32mStopped[0m                                                                                                                                                                                          [34m11.1s [0m
+[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+ [32m✔[0m Container todo-backend-app-1  [32mStopped[0m                                                                                                                                                                                          [34m11.1s [0m
+[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+ [32m✔[0m Container todo-backend-app-1  [32mStopped[0m                                                                                                                                                                                          [34m11.1s [0m
+[?25h[1A[1A[0G[?25l[34m[+] Running 1/1[0m
+ [32m✔[0m Container todo-backend-app-1  [32mRemoved[0m                                                                                                                                                                                          [34m11.1s [0m
+ [33m⠋[0m Network todo-backend_default  Removing                                                                                                                                                                                          [34m0.1s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Container todo-backend-app-1  [32mRemoved[0m                                                                                                                                                                                          [34m11.1s [0m
+ [33m⠙[0m Network todo-backend_default  Removing                                                                                                                                                                                          [34m0.2s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Container todo-backend-app-1  [32mRemoved[0m                                                                                                                                                                                          [34m11.1s [0m
+ [33m⠹[0m Network todo-backend_default  Removing                                                                                                                                                                                          [34m0.3s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Container todo-backend-app-1  [32mRemoved[0m                                                                                                                                                                                          [34m11.1s [0m
+ [33m⠸[0m Network todo-backend_default  Removing                                                                                                                                                                                          [34m0.4s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Container todo-backend-app-1  [32mRemoved[0m                                                                                                                                                                                          [34m11.1s [0m
+ [33m⠼[0m Network todo-backend_default  Removing                                                                                                                                                                                          [34m0.5s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Container todo-backend-app-1  [32mRemoved[0m                                                                                                                                                                                          [34m11.1s [0m
+ [33m⠴[0m Network todo-backend_default  Removing                                                                                                                                                                                          [34m0.6s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Container todo-backend-app-1  [32mRemoved[0m                                                                                                                                                                                          [34m11.1s [0m
+ [33m⠦[0m Network todo-backend_default  Removing                                                                                                                                                                                          [34m0.7s [0m
+[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+ [32m✔[0m Container todo-backend-app-1  [32mRemoved[0m                                                                                                                                                                                          [34m11.1s [0m
+ [33m⠧[0m Network todo-backend_default  Removing                                                                                                                                                                                          [34m0.8s [0m
+[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+ [32m✔[0m Container todo-backend-app-1  [32mRemoved[0m                                                                                                                                                                                          [34m11.1s [0m
+ [32m✔[0m Network todo-backend_default  [32mRemoved[0m                                                                                                                                                                                           [34m0.8s [0m
+[?25h[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                        ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications/todo-app/todo-backend\[0m[27m[24m[J[38;5;237m----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications/todo-app/todo-backend [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[139C [38;5;237mtturna@tturna-eos[00m[157D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74C[K[139C [38;5;237mtturna@tturna-eos[00m[157Dee[90mxit[39m
+[J[0;2malias[0m
+[J[0megrep[J[A[A[0m[27m[24m[74Ce[90mxit[39m[K[135C [38;5;237mtturna@tturna-eos[00m[156De[39mx[39mi
+[J[0;2mbuiltin command[0m
+[J[0mexit[J[A[A[0m[27m[24m[74Cexi[90mt[39m[K[135C [38;5;237mtturna@tturna-eos[00m[154D[39mt[?1l>[?2004l
+[J[A[78C
+[J]2;exit]1;exit
+Script done on 2024-03-07 14:16:23+02:00 [COMMAND_EXIT_CODE="0"]

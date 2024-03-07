@@ -1,0 +1,245 @@
+Script started on 2024-03-07 14:01:39+02:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="232" LINES="55"]
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                        ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications/todo-app/todo-backend\[0m[27m[24m[J[38;5;237m----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications/todo-app/todo-backend [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[139C [38;5;237mtturna@tturna-eos[00m[157D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74C[K[139C [38;5;237mtturna@tturna-eos[00m[157Dlls
+[J[0;2malias[0m
+[J[0mlsa[J[A[A[0m[27m[24m[74Cls[K[137C [38;5;237mtturna@tturna-eos[00m[155D[?1l>[?2004l
+[J[A[76C
+[J]2;ls --color=tty]1;lsapp.js  [0m[01;34mbin[0m  Dockerfile  [01;34mmongo[0m  [01;34mnode_modules[0m  package.json  package-lock.json  README.md  [01;34mredis[0m  [01;34mroutes[0m  [01;34mutil[0m
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                        ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications/todo-app/todo-backend\[0m[27m[24m[J[38;5;237m----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications/todo-app/todo-backend [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[139C [38;5;237mtturna@tturna-eos[00m[157D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74C[K[139C [38;5;237mtturna@tturna-eos[00m[157Ddd[90mocker image rm todo-back[39m[24D
+[J[0;2mshell function[0m
+[J[0mdebman                         [Jdefault                        [Jdetect-clipboard               [Jdiff                           [Jdman                           [Jdown-line-or-beginning-search[J[A[A[0m[27m[24m[74Cd[90mocker image rm todo-back[39m[K[114C [38;5;237mtturna@tturna-eos[00m[156Dd[39mo
+[J[0;2mshell function[0m
+[J[0mdown-line-or-beginning-search[J[A[A[0m[27m[24m[74Cdo[90mcker image rm todo-back[39m[K[114C [38;5;237mtturna@tturna-eos[00m[155D[39mc[39mk[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;2mexternal command[0m
+[0mdocker        dockerd       docker-init   docker-proxy
+[J[0;2mcommon substring:[0m [30m[103mdocker[39m[49m[3A[0m[27m[24m[74Cdock[90mer image rm todo-back[39m[K[114C [38;5;237mtturna@tturna-eos[00m[153D[39me[39mr
+[J[0;2mexternal command[0m
+[J[0mdockerd       [Jdocker-init   [Jdocker-proxy[J[A[A[0m[27m[24m[74Cdocker[90m image rm todo-back[39m[K[114C [38;5;237mtturna@tturna-eos[00m[151D[39m 
+[J[0;2mcompletions[0m
+[0mattach  build   builder  checkpoint  commit  config  container  context  cp  create  diff  events  exec    export  help     history  image  images  import  info   inspect  kill  load  login  logout   logs    manifest  network  node
+[Jpause   [Jplugin  [Jport     [Jps          [Jpull    [Jpush    [Jrename     [Jrestart  [Jrm  [Jrmi     [Jrun   [Jsave    [Jsearch  [Jsecret  [Jservice  [Jstack    [Jstart  [Jstats   [Jstop    [Jswarm  [Jsystem   [Jtag   [Jtop   [Jtrust  [Junpause  [Jupdate  [Jversion   [Jvolume   [Jwait[J[3A[0m[27m[24m[74Cdocker [90mimage rm todo-back[39m[K[114C [38;5;237mtturna@tturna-eos[00m[150D[39mb[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [17D[30m[103m[39m[49m[90muild -t todo-back .[39m[19D[30m[103m[39m[49m
+[J[0;2mcompletions[0m
+[0mbuild    builder
+[J[0;2mcommon substring:[0m [30m[103mbuild[39m[49m[3A[0m[27m[24m[74Cdocker b[90muild -t todo-back .[39m[K[112C [38;5;237mtturna@tturna-eos[00m[149D[39mu[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;2mcompletions[0m
+[0mbuild    builder
+[J[0;2mcommon substring:[0m [30m[103mbuild[39m[49m[3A[0m[27m[24m[74Cdocker bu[90mild -t todo-back .[39m[K[112C [38;5;237mtturna@tturna-eos[00m[148D[39mi[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;2mcompletions[0m
+[0mbuild    builder
+[J[0;2mcommon substring:[0m [30m[103mbuild[39m[49m[3A[0m[27m[24m[74Cdocker bui[90mld -t todo-back .[39m[K[112C [38;5;237mtturna@tturna-eos[00m[147D[39ml[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;2mcompletions[0m
+[0mbuild    builder
+[J[0;2mcommon substring:[0m [30m[103mbuild[39m[49m[3A[0m[27m[24m[74Cdocker buil[90md -t todo-back .[39m[K[112C [38;5;237mtturna@tturna-eos[00m[146D[39md
+[J[0;2mcompletions[0m
+[J[0mbuild    [Jbuilder[J[A[A[0m[27m[24m[74Cdocker build[90m -t todo-back .[39m[K[112C [38;5;237mtturna@tturna-eos[00m[145D[39m 
+[J[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74Cdocker build [90m-t todo-back .[39m[K[112C [38;5;237mtturna@tturna-eos[00m[144D[39m-
+[J[0;2mcompletions[0m
+[0m--add-host  --build-arg  -c        --cache-from   --cgroup-parent  --compress  --cpu-period  --cpu-quota  --cpuset-cpus  --cpuset-mems  --cpu-shares  --disable-content-trust  -f          --file    --force-rm  --iidfile  --isolation
+--label     -m           --memory  --memory-swap  --network        --no-cache  --platform    --pull       -q             --quiet        --rm          --security-opt           --shm-size  --squash  -t          --tag      --target 
+[J--ulimit    [J                                                                                                                                                                                           [4A[0m[27m[24m[74Cdocker build -[90mt todo-back .[39m[K[112C [38;5;237mtturna@tturna-eos[00m[143D[39mt
+[J[0;2mcompletions[0m
+[J[0m-t[J[A[A[0m[27m[24m[74Cdocker build -t[90m todo-back .[39m[K[112C [38;5;237mtturna@tturna-eos[00m[142D[39m 
+[J[0;2mdirectory[0m
+[01;34mbin[0m/           [01;34mmongo[0m/         [01;34mnode_modules[0m/  [01;34mredis[0m/         [01;34mroutes[0m/        [01;34mutil[0m/        
+[0;2mfilename[0m
+[J[0mapp.js             [JDockerfile         [Jpackage.json       [Jpackage-lock.json  [JREADME.md        [J[4A[0m[27m[24m[74Cdocker build -t [90mtodo-back .[39m[K[112C [38;5;237mtturna@tturna-eos[00m[141D[39mt
+[J[0;2mancestor directory[0m
+[J[01;34m/home/tturna[0m/                                                   [J[01;34m/home/tturna/gitrepos/part12-containers-applications/todo-app[0m/[J[A[A[0m[27m[24m[74Cdocker build -t t[90modo-back .[39m[K[112C [38;5;237mtturna@tturna-eos[00m[140D[39mo
+[J[0;2mancestor directory[0m
+[J[01;34m/home/tturna/gitrepos/part12-containers-applications/todo-app[0m/[J[A[A[0m[27m[24m[74Cdocker build -t to[90mdo-back .[39m[K[112C [38;5;237mtturna@tturna-eos[00m[139D[39md[39mo
+[J[0;2mancestor directory[0m
+[J[01;34m/home/tturna/gitrepos/part12-containers-applications/todo-app[0m/[J[A[A[0m[27m[24m[74Cdocker build -t todo[90m-back .[39m[K[112C [38;5;237mtturna@tturna-eos[00m[137D[39m-
+[J[0;2mancestor directory[0m
+[J[01;34m/home/tturna/gitrepos/part12-containers-applications/todo-app[0m/[J[A[A[0m[27m[24m[74Cdocker build -t todo-[90mback .[39m[K[112C [38;5;237mtturna@tturna-eos[00m[136D[39mb[39ma
+[J[0;2mrecent directory[0m
+[J[01;34m~/gitrepos/part12-containers-applications/todo-app/todo-backend[0m/[J[A[A[0m[27m[24m[74Cdocker build -t todo-ba[90mck .[39m[K[112C [38;5;237mtturna@tturna-eos[00m[134D[39mc[39mk
+[J[0;2mrecent directory[0m
+[J[01;34m~/gitrepos/part12-containers-applications/todo-app/todo-backend[0m/[J[A[A[0m[27m[24m[74Cdocker build -t todo-back[90m .[39m[K[112C [38;5;237mtturna@tturna-eos[00m[132D[39m 
+[J[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74Cdocker build -t todo-back [90m.[39m[K[112C [38;5;237mtturna@tturna-eos[00m[131D[39m.[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;2mrecent directory[0m
+[01;34m~/.config[0m/  [01;34m~/.local[0m/ 
+[J[0;2mcommon substring:[0m [30m[103m~/.[39m[49m[3A[0m[27m[24m[74Cdocker build -t todo-back .[K[112C [38;5;237mtturna@tturna-eos[00m[130D[?1l>[?2004l
+[J[A[101C
+[J]2;docker build -t todo-back .]1;dockerDEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+Sending build context to Docker daemon  557.1kBSending build context to Docker daemon  8.913MBSending build context to Docker daemon  11.89MB
+Step 1/6 : FROM node:16
+ ---> 1ddc7e4055fd
+Step 2/6 : WORKDIR /usr/src/app
+ ---> Running in a2c162a93456
+ ---> Removed intermediate container a2c162a93456
+ ---> 83c9dc2d5f34
+Step 3/6 : COPY --chown=node:node . .
+ ---> a749b38e0331
+Step 4/6 : RUN npm ci --omit-dev
+ ---> Running in beff8f14a657
+
+added 122 packages, and audited 123 packages in 2s
+
+5 packages are looking for funding
+  run `npm fund` for details
+
+6 vulnerabilities (3 moderate, 3 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues, run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+[91mnpm notice[0m[91m 
+npm notice[0m[91m New major version of npm available! 8.19.4 -> 10.5.0
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v10.5.0>
+npm notice Run `npm install -g npm@10.5.0` to update!
+npm notice[0m[91m 
+[0m ---> Removed intermediate container beff8f14a657
+ ---> 4b2f70ff7edf
+Step 5/6 : ENV DEBUG=todo-app:*
+ ---> Running in d9f5d58d9dbe
+ ---> Removed intermediate container d9f5d58d9dbe
+ ---> 8b1fc1e64164
+Step 6/6 : CMD npm start
+ ---> Running in cdf7af18e753
+ ---> Removed intermediate container cdf7af18e753
+ ---> 3a5e16d166a9
+Successfully built 3a5e16d166a9
+Successfully tagged todo-back:latest
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                        ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications/todo-app/todo-backend\[0m[27m[24m[J[38;5;237m----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications/todo-app/todo-backend [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[139C [38;5;237mtturna@tturna-eos[00m[157D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74C[K[139C [38;5;237mtturna@tturna-eos[00m[157Ddd[90mocker build -t todo-back .[39m[26D
+[J[0;2mshell function[0m
+[J[0mdebman                         [Jdefault                        [Jdetect-clipboard               [Jdiff                           [Jdman                           [Jdown-line-or-beginning-search[J[A[A[0m[27m[24m[74Cd[90mocker build -t todo-back .[39m[K[112C [38;5;237mtturna@tturna-eos[00m[156Dd[39mo
+[J[0;2mshell function[0m
+[J[0mdown-line-or-beginning-search[J[A[A[0m[27m[24m[74Cdo[90mcker build -t todo-back .[39m[K[112C [38;5;237mtturna@tturna-eos[00m[155D[39mc[39mk[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;2mexternal command[0m
+[0mdocker        dockerd       docker-init   docker-proxy
+[J[0;2mcommon substring:[0m [30m[103mdocker[39m[49m[3A[0m[27m[24m[74Cdock[90mer build -t todo-back .[39m[K[112C [38;5;237mtturna@tturna-eos[00m[153D[39me[39mr
+[J[0;2mexternal command[0m
+[J[0mdockerd       [Jdocker-init   [Jdocker-proxy[J[A[A[0m[27m[24m[74Cdocker[90m build -t todo-back .[39m[K[112C [38;5;237mtturna@tturna-eos[00m[151D[39m [39mi[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [19D[90mmage rm todo-back[39m[17D
+[J[0;2mcompletions[0m
+[J[0mimage    [Jimages   [Jimport   [Jinfo     [Jinspect[J[A[A[0m[27m[24m[74Cdocker i[90mmage rm todo-back[39m[K[114C [38;5;237mtturna@tturna-eos[00m[149D[39mm[39ma[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;2mcompletions[0m
+[0mimage   images
+[J[0;2mcommon substring:[0m [30m[103mimage[39m[49m[3A[0m[27m[24m[74Cdocker ima[90mge rm todo-back[39m[K[114C [38;5;237mtturna@tturna-eos[00m[147D[39mg[39me[39m 
+[J[0;2mcompletions[0m
+[J[0mbuild    [Jhistory  [Jimport   [Jinspect  [Jload     [Jls       [Jprune    [Jpull     [Jpush     [Jrm       [Jsave     [Jtag    [J[A[A[0m[27m[24m[74Cdocker image [90mrm todo-back[39m[K[114C [38;5;237mtturna@tturna-eos[00m[144D[39ml[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[90ms[39m
+[J[0;2mcompletions[0m
+[J[0mload  [Jls  [J[A[A[0m[27m[24m[74Cdocker image l[90ms[39m[K[124C [38;5;237mtturna@tturna-eos[00m[143D[39ms
+[J[0;2mcompletions[0m
+[J[0mls[J[A[A[0m[27m[24m[74Cdocker image ls[K[124C [38;5;237mtturna@tturna-eos[00m[142D[?1l>[?2004l
+[J[A[89C
+[J]2;docker image ls]1;dockerREPOSITORY   TAG       IMAGE ID       CREATED         SIZE
+todo-back    latest    3a5e16d166a9   6 seconds ago   936MB
+ubuntu       latest    ca2b0f26964c   8 days ago      77.9MB
+node         16        1ddc7e4055fd   6 months ago    909MB
+[1m[7m%[27m[1m[0m                                                                                                                                                                                                                                        ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications/todo-app/todo-backend\[0m[27m[24m[J[38;5;237m----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications/todo-app/todo-backend [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[139C [38;5;237mtturna@tturna-eos[00m[157D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74C[K[139C [38;5;237mtturna@tturna-eos[00m[157Ddd[90mocker image ls[39m[14D
+[J[0;2mshell function[0m
+[J[0mdebman                         [Jdefault                        [Jdetect-clipboard               [Jdiff                           [Jdman                           [Jdown-line-or-beginning-search[J[A[A[0m[27m[24m[74Cd[90mocker image ls[39m[K[124C [38;5;237mtturna@tturna-eos[00m[156Dd[39mo
+[J[0;2mshell function[0m
+[J[0mdown-line-or-beginning-search[J[A[A[0m[27m[24m[74Cdo[90mcker image ls[39m[K[124C [38;5;237mtturna@tturna-eos[00m[155D[39mc[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;2mexternal command[0m
+[0mdocker        dockerd       docker-init   docker-proxy
+[J[0;2mcommon substring:[0m [30m[103mdocker[39m[49m[3A[0m[27m[24m[74Cdoc[90mker image ls[39m[K[124C [38;5;237mtturna@tturna-eos[00m[154D[39mk[39me[39mr[39m 
+[J[0;2mcompletions[0m
+[0mattach  build   builder  checkpoint  commit  config  container  context  cp  create  diff  events  exec    export  help     history  image  images  import  info   inspect  kill  load  login  logout   logs    manifest  network  node
+[Jpause   [Jplugin  [Jport     [Jps          [Jpull    [Jpush    [Jrename     [Jrestart  [Jrm  [Jrmi     [Jrun   [Jsave    [Jsearch  [Jsecret  [Jservice  [Jstack    [Jstart  [Jstats   [Jstop    [Jswarm  [Jsystem   [Jtag   [Jtop   [Jtrust  [Junpause  [Jupdate  [Jversion   [Jvolume   [Jwait[J[3A[0m[27m[24m[74Cdocker [90mimage ls[39m[K[124C [38;5;237mtturna@tturna-eos[00m[150D[39mr[39m [39m [39m [39m [39m [39m [39m u[90mn -p 3000:3000 todo-back:latest[39m[31D[39mn
+[J[0;2mcompletions[0m
+[J[0mrun[J[A[A[0m[27m[24m[74Cdocker run[90m -p 3000:3000 todo-back:latest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[147D[39m 
+[J[0;2mcompletions[0m
+[J[0mnode:16           [Jtodo-back:latest  [Jubuntu:latest   [J[A[A[0m[27m[24m[74Cdocker run [90m-p 3000:3000 todo-back:latest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[146D[39m-
+[J[0;2mcompletions[0m
+[0m-a                 --add-host         --annotation      --attach                 --blkio-weight         --blkio-weight-device  -c                    --cap-add           --cap-drop           --cgroupns               --cgroup-parent
+--cidfile          --cpu-count        --cpu-percent     --cpu-period             --cpu-quota            --cpu-rt-period        --cpu-rt-runtime      --cpus              --cpuset-cpus        --cpuset-mems            --cpu-shares 
+-d                 --detach           --detach-keys     --device                 --device-cgroup-rule   --device-read-bps      --device-read-iops    --device-write-bps  --device-write-iops  --disable-content-trust  --dns        
+--dns-option       --dns-search       --domainname      -e                       --entrypoint           --env                  --env-file            --expose            --gpus               --group-add              -h           
+--health-cmd       --health-interval  --health-retries  --health-start-interval  --health-start-period  --health-timeout       --help                --hostname          -i                   --init                   --interactive
+--io-maxbandwidth  --io-maxiops       --ip              --ip6                    --ipc                  --isolation            --kernel-memory       -l                  --label              --label-file             --link       
+--link-local-ip    --log-driver       --log-opt         -m                       --mac-address          --memory               --memory-reservation  --memory-swap       --memory-swappiness  --mount                  --name       
+--network          --network-alias    --no-healthcheck  --oom-kill-disable       --oom-score-adj        -p                     -P                    --pid               --pids-limit         --platform               --privileged 
+--publish          --publish-all      --pull            -q                       --quiet                --read-only            --restart             --rm                --runtime            --security-opt           --shm-size   
+--sig-proxy        --stop-signal      --stop-timeout    --storage-opt            --sysctl               -t                     --tmpfs               --tty               -u                   --ulimit                 --user       
+[J--userns           [J--uts              [J-v                [J--volume                 [J--volume-driver        [J--volumes-from         [J-w                    [J--workdir           [J                                                       [12A[0m[27m[24m[74Cdocker run -[90mp 3000:3000 todo-back:latest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[145D[39mp
+[J[0;2mcompletions[0m
+[J[0m-p[J[A[A[0m[27m[24m[74Cdocker run -p[90m 3000:3000 todo-back:latest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[144D[39m 
+[J[0;2mdirectory[0m
+[01;34mbin[0m/           [01;34mmongo[0m/         [01;34mnode_modules[0m/  [01;34mredis[0m/         [01;34mroutes[0m/        [01;34mutil[0m/        
+[0;2mfilename[0m
+[J[0mapp.js             [JDockerfile         [Jpackage.json       [Jpackage-lock.json  [JREADME.md        [J[4A[0m[27m[24m[74Cdocker run -p [90m3000:3000 todo-back:latest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[143D[39m3
+[J[0;2mrecent directory[0m
+[J[01;34m~/.config/i3[0m/[J[A[A[0m[27m[24m[74Cdocker run -p 3[90m000:3000 todo-back:latest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[142D[39m0[39m0[39m0
+[J[J[0;2mno matching `completions', `filename', `directory', `ancestor directory', or `recent directory' completions[0m[A[0m[27m[24m[74Cdocker run -p 3000[90m:3000 todo-back:latest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[139D[39m:
+[J[J[0;2mno matching `completions', `filename', `directory', `ancestor directory', or `recent directory' completions[0m[A[0m[27m[24m[74Cdocker run -p 3000:[90m3000 todo-back:latest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[138D[39m3[39m0[39m0[39m0
+[J[J[0;2mno matching `completions', `filename', `directory', `ancestor directory', or `recent directory' completions[0m[A[0m[27m[24m[74Cdocker run -p 3000:3000[90m todo-back:latest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[134D[39m 
+[J[0;2mcompletions[0m
+[J[0mnode:16           [Jtodo-back:latest  [Jubuntu:latest   [J[A[A[0m[27m[24m[74Cdocker run -p 3000:3000 [90mtodo-back:latest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[133D[39mt
+[J[0;2mcompletions[0m
+[J[0mtodo-back:latest[J[A[A[0m[27m[24m[74Cdocker run -p 3000:3000 t[90modo-back:latest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[132D[39mo
+[J[0;2mcompletions[0m
+[J[0mtodo-back:latest[J[A[A[0m[27m[24m[74Cdocker run -p 3000:3000 to[90mdo-back:latest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[131D[39md
+[J[0;2mcompletions[0m
+[J[0mtodo-back:latest[J[A[A[0m[27m[24m[74Cdocker run -p 3000:3000 tod[90mo-back:latest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[130D[39mo
+[J[0;2mcompletions[0m
+[J[0mtodo-back:latest[J[A[A[0m[27m[24m[74Cdocker run -p 3000:3000 todo[90m-back:latest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[129D[39m-
+[J[0;2mcompletions[0m
+[J[0mtodo-back:latest[J[A[A[0m[27m[24m[74Cdocker run -p 3000:3000 todo-[90mback:latest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[128D[39mb
+[J[0;2mcompletions[0m
+[J[0mtodo-back:latest[J[A[A[0m[27m[24m[74Cdocker run -p 3000:3000 todo-b[90mack:latest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[127D[39ma[39mc[39mk
+[J[0;2mcompletions[0m
+[J[0mtodo-back:latest[J[A[A[0m[27m[24m[74Cdocker run -p 3000:3000 todo-back[90m:latest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[124D[39m:
+[J[0;2mcompletions[0m
+[J[0mtodo-back:latest[J[A[A[0m[27m[24m[74Cdocker run -p 3000:3000 todo-back:[90mlatest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[123D[39ml
+[J[0;2mcompletions[0m
+[J[0mtodo-back:latest[J[A[A[0m[27m[24m[74Cdocker run -p 3000:3000 todo-back:l[90matest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[122D[39ma
+[J[0;2mcompletions[0m
+[J[0mtodo-back:latest[J[A[A[0m[27m[24m[74Cdocker run -p 3000:3000 todo-back:la[90mtest[39m[K[99C [38;5;237mtturna@tturna-eos[00m[121D[39mt[39me
+[J[0;2mcompletions[0m
+[J[0mtodo-back:latest[J[A[A[0m[27m[24m[74Cdocker run -p 3000:3000 todo-back:late[90mst[39m[K[99C [38;5;237mtturna@tturna-eos[00m[119D[39ms[39mt
+[J[0;2mcompletions[0m
+[J[0mtodo-back:latest[J[A[A[0m[27m[24m[74Cdocker run -p 3000:3000 todo-back:latest[K[99C [38;5;237mtturna@tturna-eos[00m[117D[?1l>[?2004l
+[J[A[114C
+[J]2;docker run -p 3000:3000 todo-back:latest]1;docker
+> todo-express-backend@0.0.0 start
+> node ./bin/www
+
+[0mGET / [32m200 [0m2.545 ms - 12[0m
+[0mGET /favicon.ico [33m404 [0m1.748 ms - 150[0m
+[0mGET / [32m200 [0m0.581 ms - 12[0m
+[0mGET /favicon.ico [33m404 [0m0.670 ms - 150[0m
+[0mGET / [32m200 [0m0.382 ms - 12[0m
+[0mGET /favicon.ico [33m404 [0m0.584 ms - 150[0m
+[0mGET / [32m200 [0m0.327 ms - 12[0m
+[0mGET /favicon.ico [33m404 [0m0.356 ms - 150[0m
+[0mGET / [32m200 [0m0.437 ms - 12[0m
+[0mGET /favicon.ico [33m404 [0m0.477 ms - 150[0m
+[1m[7m%[27m[1m[0m                                                                                                                 ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications/todo-app/todo-backend\[0m[27m[24m[J[38;5;237m-----------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications/todo-app/todo-backend [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[15C[31m137 ↵[00m [38;5;237mtturna@tturna-eos[00m[38D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74C[K[15C[31m137 ↵[00m [38;5;237mtturna@tturna-eos[00m[38D[A[0m[27m[24m[J[38;5;237m----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications/todo-app/todo-backend [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[134C[31m137 ↵[00m [38;5;237mtturna@tturna-eos[00m[157D
+[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74C[K[134C[31m137 ↵[00m [38;5;237mtturna@tturna-eos[00m[157Dee[90mxit[39m
+[J[0;2malias[0m
+[J[0megrep[J[A[A[0m[27m[24m[74Ce[90mxit[39m[K[130C[31m137 ↵[00m [38;5;237mtturna@tturna-eos[00m[156De[39mx
+[J[0;2mshell function[0m
+[J[0mexpand-or-complete-with-dots[J[A[A[0m[27m[24m[74Cex[90mit[39m[K[130C[31m137 ↵[00m [38;5;237mtturna@tturna-eos[00m[155D[39mi
+[J[0;2mbuiltin command[0m
+[J[0mexit[J[A[A[0m[27m[24m[74Cexi[90mt[39m[K[130C[31m137 ↵[00m [38;5;237mtturna@tturna-eos[00m[154D[39mt
+[J[0;2mshell function[0m
+[J[0mazhw:zle-isearch-exit[J[A[A[0m[27m[24m[74Cexit[K[130C[31m137 ↵[00m [38;5;237mtturna@tturna-eos[00m[153D[?1l>[?2004l
+[J[A[78C
+[J]2;exit]1;exit
+Script done on 2024-03-07 14:03:28+02:00 [COMMAND_EXIT_CODE="137"]
