@@ -14,5 +14,8 @@ services:
   
   redis:
     image: redis
+    command: ['redis-server', '--appendonly', 'yes']
     ports:
       - 6378:6379
+    volumes:
+      - ./redis_data:/data
