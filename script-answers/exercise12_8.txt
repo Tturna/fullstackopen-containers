@@ -1,0 +1,264 @@
+Script started on 2024-03-07 17:33:00+02:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="113" LINES="55"]
+[1m[7m%[27m[1m[0m                                                                                                                 ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications/todo-app/todo-backend\[0m[27m[24m[J[38;5;237m-----------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications/todo-app/todo-backend [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[20C [38;5;237mtturna@tturna-eos[00m[38D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74C[K[20C [38;5;237mtturna@tturna-eos[00m[38Ddd[90mocker compose -f docker-compose.dev.ym[90ml[90m logs -f[39m[K[A[66C[1B
+[J[0;2mshell function[0m
+[J[0mdebman   [Jdefault   [Jdetect-clipboard   [Jdiff   [Jdman   [Jdown-line-or-beginning-search   [J[3A[0m[27m[24m[74Cd[90mocker compose -f docker-compose.dev.ym[90ml[90m logs -f[39m[K[A[66Cd[39mo[1B
+[J[0;2mshell function[0m
+[J[0mdown-line-or-beginning-search[J[3A[0m[27m[24m[74Cdo[90mcker compose -f docker-compose.dev.ym[90ml[90m logs -f[39m[K[A[67C[39mc[30m[103m[39m[49m[30m[103m[39m[49m[1B
+[J[0;2mexternal command[0m
+[0mdocker          docker-compose  dockerd         docker-init     docker-proxy  
+[J[0;2mcommon substring:[0m [30m[103mdocker[39m[49m[4A[0m[27m[24m[74Cdoc[90mker compose -f docker-compose.dev.ym[90ml[90m logs -f[39m[K[A[68C[39mk[30m[103m[39m[49m[30m[103m[39m[49m[1B
+[J[0;2mexternal command[0m
+[0mdocker          docker-compose  dockerd         docker-init     docker-proxy  
+[J[0;2mcommon substring:[0m [30m[103mdocker[39m[49m[4A[0m[27m[24m[74Cdock[90mer compose -f docker-compose.dev.ym[90ml[90m logs -f[39m[K[A[69C[39me[39mr[1B
+[J[0;2mexternal command[0m
+[J[0mdocker-compose  [Jdockerd         [Jdocker-init     [Jdocker-proxy  [J[3A[0m[27m[24m[74Cdocker[90m compose -f docker-compose.dev.ym[90ml[90m logs -f[39m[K[A[71C[39m [39me[K[12C [38;5;237mtturna@tturna-eos[00m[1B[K[A[82C[1B[J[0;2mcompletions[0m
+[J[0mevents  [Jexec    [Jexport[J[A[A[0m[27m[24m[74Cdocker e[K[12C [38;5;237mtturna@tturna-eos[00m[30Dx
+[J[0;2mcompletions[0m
+[J[0mexec    [Jexport[J[A[A[0m[27m[24m[74Cdocker ex[K[11C [38;5;237mtturna@tturna-eos[00m[29De
+[J[0;2mcompletions[0m
+[J[0mexec[J[A[A[0m[27m[24m[74Cdocker exe[K[10C [38;5;237mtturna@tturna-eos[00m[28Dc
+[J[0;2mcompletions[0m
+[J[0mexec[J[A[A[0m[27m[24m[74Cdocker exec[K[9C [38;5;237mtturna@tturna-eos[00m[27D 
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec[K[9C [38;5;237mtturna@tturna-eos[00m[26D-
+[J[0;2mcompletions[0m
+[0m-d  --detach   --detach-keys  -e  --env  --env-file  -i  --interactive  --privileged  -t  --tty  -u  --user
+[J-w  [J--workdir  [J                                                                      [3A[0m[27m[24m[74Cdocker exec -[K[7C [38;5;237mtturna@tturna-eos[00m[25Dit
+[J[J[0;2mno matching `completions' completions[0m[A[0m[27m[24m[74Cdocker exec -it[K[5C [38;5;237mtturna@tturna-eos[00m[23D 
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec -it[K[5C [38;5;237mtturna@tturna-eos[00m[22D
+[J[J[0;2mno matching `completions' completions[0m[A[0m[27m[24m[74Cdocker exec -it[K[5C [38;5;237mtturna@tturna-eos[00m[23D           d  
+[J[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74C[K[20C [38;5;237mtturna@tturna-eos[00m[38Ddd[90mocker compose -f docker-compose.dev.ym[90ml[90m logs -f[39m[K[A[66C[1B
+[J[0;2mshell function[0m
+[J[0mdebman   [Jdefault   [Jdetect-clipboard   [Jdiff   [Jdman   [Jdown-line-or-beginning-search   [J[3A[0m[27m[24m[74Cd[90mocker compose -f docker-compose.dev.ym[90ml[90m logs -f[39m[K[A[66Cd[39mo[1B
+[J[0;2mshell function[0m
+[J[0mdown-line-or-beginning-search[J[3A[0m[27m[24m[74Cdo[90mcker compose -f docker-compose.dev.ym[90ml[90m logs -f[39m[K[A[67C[39mc[39mk[30m[103m[39m[49m[30m[103m[39m[49m[1B
+[J[0;2mexternal command[0m
+[0mdocker          docker-compose  dockerd         docker-init     docker-proxy  
+[J[0;2mcommon substring:[0m [30m[103mdocker[39m[49m[4A[0m[27m[24m[74Cdock[90mer compose -f docker-compose.dev.ym[90ml[90m logs -f[39m[K[A[69C[39me[39mr[39m [39mc[39mo[39mn[K[10C [38;5;237mtturna@tturna-eos[00m[1B[K[A[84Ct[90mainer ls[39m[8D[1B[J[0;2mcompletions[0m
+[J[0mcontainer  [Jcontext  [J[A[A[0m[27m[24m[74Cdocker cont[90mainer ls[39m[K[1C [38;5;237mtturna@tturna-eos[00m[27D[39ma[39mi[39mn[39me[39mr[39m 
+[J[0;2mcompletions[0m
+[0mattach  commit  cp     create  diff  exec  export   inspect  kill  logs  ls  pause  port  prune  rename  restart
+[Jrm      [Jrun     [Jstart  [Jstats   [Jstop  [Jtop   [Junpause  [Jupdate   [Jwait  [J                               [3A[0m[27m[24m[74Cdocker container [90mls[39m[K[1C [38;5;237mtturna@tturna-eos[00m[21D[39ml
+[J[0;2mcompletions[0m
+[J[0mlogs  [Jls  [J[A[A[0m[27m[24m[74Cdocker container l[90ms[39m[K[1C [38;5;237mtturna@tturna-eos[00m[20D[39ms[?1l>[?2004l
+[J[A[93C
+[J]2;docker container ls]1;dockerCONTAINER ID   IMAGE     COMMAND                  CREATED       STATUS       PORTS                                         NAMES
+9e5122975267   mongo     "docker-entrypoint.s…"   2 hours ago   Up 2 hours   0.0.0.0:3456->27017/tcp, :::3456->27017/tcp   todo-backend-mongo-1
+[1m[7m%[27m[1m[0m                                                                                                                 ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications/todo-app/todo-backend\[0m[27m[24m[J[38;5;237m-----------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications/todo-app/todo-backend [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[20C [38;5;237mtturna@tturna-eos[00m[38D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74C[K[20C [38;5;237mtturna@tturna-eos[00m[38Ddd[90mocker container ls[39m[18D
+[J[0;2mshell function[0m
+[J[0mdebman   [Jdefault   [Jdetect-clipboard   [Jdiff   [Jdman   [Jdown-line-or-beginning-search   [J[A[A[0m[27m[24m[74Cd[90mocker container ls[39m[K[1C [38;5;237mtturna@tturna-eos[00m[37Dd[39mo
+[J[0;2mshell function[0m
+[J[0mdown-line-or-beginning-search[J[A[A[0m[27m[24m[74Cdo[90mcker container ls[39m[K[1C [38;5;237mtturna@tturna-eos[00m[36D[39mc[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;2mexternal command[0m
+[0mdocker          docker-compose  dockerd         docker-init     docker-proxy  
+[J[0;2mcommon substring:[0m [30m[103mdocker[39m[49m[3A[0m[27m[24m[74Cdoc[90mker container ls[39m[K[1C [38;5;237mtturna@tturna-eos[00m[35D[39mk[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;2mexternal command[0m
+[0mdocker          docker-compose  dockerd         docker-init     docker-proxy  
+[J[0;2mcommon substring:[0m [30m[103mdocker[39m[49m[3A[0m[27m[24m[74Cdock[90mer container ls[39m[K[1C [38;5;237mtturna@tturna-eos[00m[34D[39me[90me[90mr[90m [90mc[90mo[90mn[90mt[90ma[90mi[90mn[90me[90mr[90m [90ml[90ms[39m[K[15D[39mr[K[14C [38;5;237mtturna@tturna-eos[00m[32D[90m container ls[39m[13D
+[J[0;2mexternal command[0m
+[J[0mdocker-compose  [Jdockerd         [Jdocker-init     [Jdocker-proxy  [J[A[A[0m[27m[24m[74Cdocker[90m container ls[39m[K[1C [38;5;237mtturna@tturna-eos[00m[32D[39m 
+[J[0;2mcompletions[0m
+[0mattach  build    builder  checkpoint  commit   compose  config   container  context  cp       create  diff
+events  exec     export   help        history  image    images   import     info     inspect  kill    load
+login   logout   logs     manifest    network  node     pause    plugin     port     ps       pull    push
+rename  restart  rm       rmi         run      save     search   secret     service  stack    start   stats
+[Jstop    [Jswarm    [Jsystem   [Jtag         [Jtop      [Jtrust    [Junpause  [Jupdate     [Jversion  [Jvolume   [Jwait    [J   [6A[0m[27m[24m[74Cdocker [90mcontainer ls[39m[K[1C [38;5;237mtturna@tturna-eos[00m[31D[39me[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D
+[J[0;2mcompletions[0m
+[J[0mevents  [Jexec    [Jexport[J[A[A[0m[27m[24m[74Cdocker e[K[12C [38;5;237mtturna@tturna-eos[00m[30Dx
+[J[0;2mcompletions[0m
+[J[0mexec    [Jexport[J[A[A[0m[27m[24m[74Cdocker ex[K[11C [38;5;237mtturna@tturna-eos[00m[29Dec
+[J[0;2mcompletions[0m
+[J[0mexec[J[A[A[0m[27m[24m[74Cdocker exec[K[9C [38;5;237mtturna@tturna-eos[00m[27D 
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec[K[9C [38;5;237mtturna@tturna-eos[00m[26D-
+[J[0;2mcompletions[0m
+[0m-d  --detach   --detach-keys  -e  --env  --env-file  -i  --interactive  --privileged  -t  --tty  -u  --user
+[J-w  [J--workdir  [J                                                                      [3A[0m[27m[24m[74Cdocker exec -[K[7C [38;5;237mtturna@tturna-eos[00m[25Dit 
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec -it[K[5C [38;5;237mtturna@tturna-eos[00m[22Dtodo[K
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec -it todo[K-
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec -it todo-[Kba
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec -it todo-ba[Kke
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec -it todo-bake[K  c
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec -it todo-bac[Kken
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec -it todo-backen[Kd
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec -it todo-backend[K-
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec -it todo-backend-[Kmon
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec -it todo-backend-mon[Kog
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec -it todo-backend-monog[K  
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec -it todo-backend-mon[Kgo
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec -it todo-backend-mongo[K-
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec -it todo-backend-mongo-[K1
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec -it todo-backend-mongo-1[K[?1l>[?2004l
+[J[A[110C
+[J]2;docker exec -it todo-backend-mongo-1]1;docker"docker exec" requires at least 2 arguments.
+See 'docker exec --help'.
+
+Usage:  docker exec [OPTIONS] CONTAINER COMMAND [ARG...]
+
+Execute a command in a running container
+[1m[7m%[27m[1m[0m                                                                                                                 ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications/todo-app/todo-backend\[0m[27m[24m[J[38;5;237m-----------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications/todo-app/todo-backend [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[17C[31m1 ↵[00m [38;5;237mtturna@tturna-eos[00m[38D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74C[K[17C[31m1 ↵[00m [38;5;237mtturna@tturna-eos[00m[38D
+[J[A[74Cdocker exec -it todo-backend-mongo-1[1m;[0m[K
+[0m[2m3178[0m man sln                                                                                                    [K[K
+[2m3179[0m man ln                                                                                                     [K[K
+[2m3180[0m cd ..                                                                                                      [K[K
+[2m3181[0m cd soft                                                                                                    [K[K
+[2m3182[0m ls                                                                                                         [K[K
+[2m3183[0m cd REAPER                                                                                                  [K[K
+[2m3184[0m ls                                                                                                         [K[K
+[2m3185[0m file reaper                                                                                                [K[K
+[2m3186[0m ./reaper                                                                                                   [K[K
+[2m3187[0m ln -s /home/tturna/soft/REAPER/reaper /home/tturna/apps/reaper                                             [K[K
+[2m3188[0m cd                                                                                                         [K[K
+[2m3189[0m reaper                                                                                                     [K[K
+[2m3190[0m ls                                                                                                         [K[K
+[2m3191[0m script ../../script-answers/exercise12_8.txt                                                               [K[K
+[2m3192[0m docker container ls                                                                                        [K[K
+[J[7m3193 docker exec -it todo-backend-mongo-1                                                                       [0m[K[J[16A[0m[27m[24m[74Cdocker exec -it todo-backend-mongo-1[1m;[0m[K
+[15B[7m3193 docker exec -it todo-backend-mongo-1                                                                       [0m[K[7m3193 docker exec -it todo-backend-mongo-1                                                                       [0m[K[16A[0m[27m[24m[74Cdocker exec -it todo-backend-mongo-1[1m;[0m[K
+[J[A[111C[0m 
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec -it todo-backend-mongo-1[K 
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-mongo-1[J[A[A[0m[27m[24m[74Cdocker exec -it todo-backend-mongo-1[K[1Cba [Kssh
+[J[J[0;2mno matching `completions' completions[0m[A[A[0m[27m[24m[74Cdocker exec -it todo-backend-mongo-1 bash[K[?1l>[?2004l
+[J[A[2C
+[J]2;docker exec -it todo-backend-mongo-1 bash]1;docker[?2004hroot@9e5122975267:/# mongosh
+[?2004l]0;mongosh mongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	65e9de64b7b7634413f22dcf
+Connecting to:		[1m[32mmongodb://127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.1.5[0m
+Using MongoDB:		7.0.6
+[1m[33mUsing Mongosh[0m:		2.1.5
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+
+To help improve our products, anonymous usage data is collected and sent to MongoDB periodically (https://www.mongodb.com/legal/privacy-policy).
+You can opt-out by running the [1mdisableTelemetry()[0m command.
+
+[1G[0J [1G[1G[0Jtest> [7Gshow sbs[1G[0Jtest> show sb[14G[1G[0Jtest> show s[13G[1G[0Jtest> show [12Gdbs
+Uncaught [1m[31mMongoServerError[0m[1m[31m[Unauthorized][0m: Command listDatabases requires authentication
+[1G[0Jtest> [7Gexit
+[?2004hroot@9e5122975267:/# mongosh -u root -p example
+[?2004l]0;mongosh mongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000Current Mongosh Log ID:	65e9de7dcfda78751a63eb1b
+Connecting to:		[1m[32mmongodb://<credentials>@127.0.0.1:27017/?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+2.1.5[0m
+Using MongoDB:		7.0.6
+[1m[33mUsing Mongosh[0m:		2.1.5
+
+For mongosh info see: [1mhttps://docs.mongodb.com/mongodb-shell/[0m
+
+[1G[0J [1G[1m[33m------[0m
+   [1m[33mThe server generated these startup warnings when booting[0m
+   2024-03-07T13:13:33.262+00:00: Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem
+   2024-03-07T13:13:34.601+00:00: /sys/kernel/mm/transparent_hugepage/enabled is 'always'. We suggest setting it to 'never'
+   2024-03-07T13:13:34.601+00:00: vm.max_map_count is too low
+[1m[33m------[0m
+
+[1G[0Jtest> [7Gshow dbs
+[1madmin[0m         100.00 KiB
+[1mconfig[0m         72.00 KiB
+[1mlocal[0m          72.00 KiB
+[1mthe_database[0m   56.00 KiB
+[1G[0Jtest> [7Guse the_database
+switched to db the_database
+[1G[0Jthe_database> [15Gshow collections
+[1mtodos[0m
+[1G[0Jthe_database> [15Gdb.todos.find({][1G[0Jthe_database> db.todos.find({[30G}([1G[0Jthe_database> db.todos.find({}[31G)
+[
+  {
+    _id: ObjectId([32m'65e9bc90d6e52b3b2a92efd0'[39m),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'65e9bc90d6e52b3b2a92efd1'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gdb.collection[1G[0Jthe_database> db.collectio[27G[1G[0Jthe_database> db.collecti[26G[1G[0Jthe_database> db.collect[25G[1G[0Jthe_database> db.collec[24G[1G[0Jthe_database> db.colle[23G[1G[0Jthe_database> db.coll[22G[1G[0Jthe_database> db.col[21G[1G[0Jthe_database> db.co[20G[1G[0Jthe_database> db.c[19G[1G[0Jthe_database> db.[18Gtodos.insertOne({text[33mtext[39m: [32m'[39m[32mI[39m[32mn[39m[32mc[39m[32mr[39m[32me[39m[32ma[39m[32ms[39m[32me[39m [32mt[39m[32mh[39m[32me[39m [32mn[39m[32mb[39m[32mu[39m[32mm[39m[32mb[39m[32me[39m[32mr[39m [1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m'Increase the nbumber[39m[62G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m'Increase the nbumbe[39m[61G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m'Increase the nbumb[39m[60G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m'Increase the nbum[39m[59G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m'Increase the nbu[39m[58G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m'Increase the nb[39m[57G[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m'Increase the n[39m[56G[32mu[39m[32mm[39m[32mb[39m[32me[39m[32mr[39m [32mo[39m[32mf[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32ms[39m [32mi[39m[32mn[39m [32mm[39m[32my[39m [32mt[39m[32mo[39m[32mo[39m[32ml[39m[32mb[39m[32me[39m[32mt[39m[1G[0Jthe_database> db.todos.insertOne({[33mtext[39m: [32m'Increase the number of tools in my toolbe[39m[83G[32ml[39m[32mt[39m[32m'[39m, d[36mdo[39mdone: fals[33mfalse[39m})
+{
+  acknowledged: [33mtrue[39m,
+  insertedId: ObjectId([32m'65e9dee1cfda78751a63eb1c'[39m)
+}
+[1G[0Jthe_database> [15Gdb.todos.find({][1G[0Jthe_database> db.todos.find({[30G]}[1G[0Jthe_database> db.todos.find({][31G[1G[0Jthe_database> db.todos.find({[30G}][1G[0Jthe_database> db.todos.find({}[31G[1G[0Jthe_database> db.todos.find({[30G})
+[
+  {
+    _id: ObjectId([32m'65e9bc90d6e52b3b2a92efd0'[39m),
+    text: [32m'Write code'[39m,
+    done: [33mtrue[39m
+  },
+  {
+    _id: ObjectId([32m'65e9bc90d6e52b3b2a92efd1'[39m),
+    text: [32m'Learn about containers'[39m,
+    done: [33mfalse[39m
+  },
+  {
+    _id: ObjectId([32m'65e9dee1cfda78751a63eb1c'[39m),
+    text: [32m'Increase the number of tools in my toolbelt'[39m,
+    done: [33mfalse[39m
+  }
+]
+[1G[0Jthe_database> [15Gexit
+[?2004hroot@9e5122975267:/# exit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                                                 ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications/todo-app/todo-backend\[0m[27m[24m[J[38;5;237m-----------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications/todo-app/todo-backend [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[20C [38;5;237mtturna@tturna-eos[00m[38D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74C[K[20C [38;5;237mtturna@tturna-eos[00m[38Dnn[90mpm run dev[39m[10D
+[J[0;2mshell function[0m
+[0mnvm_prompt_info
+[0;2mdirectory[0m
+[J[01;34mnode_modules[0m/[J[4A[0m[27m[24m[74Cn[90mpm run dev[39m[K[9C [38;5;237mtturna@tturna-eos[00m[37Dn[39mp
+[J[0;2mexternal command[0m
+[J[0mnping  [Jnpm    [Jnproc  [Jnpx  [J[A[A[0m[27m[24m[74Cnp[90mm run dev[39m[K[9C [38;5;237mtturna@tturna-eos[00m[36D[39mm[39m [39mr[39mu[39mn[39m [39md[39me[39mv[?1l>[?2004l
+[J[A[85C
+[J]2;npm run dev]1;npm
+> todo-express-backend@0.0.0 dev
+> nodemon ./bin/www
+
+[33m[nodemon] 2.0.22[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node ./bin/www`[39m
+[0mGET /todos [32m200 [0m16.798 ms - 249[0m
+[0mGET /favicon.ico [33m404 [0m1.510 ms - 150[0m
+^C
+[1m[7m%[27m[1m[0m                                                                                                                 ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications/todo-app/todo-backend\[0m[27m[24m[J[38;5;237m-----------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications/todo-app/todo-backend [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[15C[31m130 ↵[00m [38;5;237mtturna@tturna-eos[00m[38D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74C[K[15C[31m130 ↵[00m [38;5;237mtturna@tturna-eos[00m[38Dee[90mxit[39m
+[J[0;2malias[0m
+[J[0megrep[J[A[A[0m[27m[24m[74Ce[90mxit[39m[K[11C[31m130 ↵[00m [38;5;237mtturna@tturna-eos[00m[37De[39mx
+[J[0;2mshell function[0m
+[J[0mexpand-or-complete-with-dots[J[A[A[0m[27m[24m[74Cex[90mit[39m[K[11C[31m130 ↵[00m [38;5;237mtturna@tturna-eos[00m[36D[39mi
+[J[0;2mbuiltin command[0m
+[J[0mexit[J[A[A[0m[27m[24m[74Cexi[90mt[39m[K[11C[31m130 ↵[00m [38;5;237mtturna@tturna-eos[00m[35D[39mt[?1l>[?2004l
+[J[A[78C
+[J]2;exit]1;exit
+Script done on 2024-03-07 17:36:39+02:00 [COMMAND_EXIT_CODE="130"]
