@@ -1,0 +1,122 @@
+Script started on 2024-03-07 12:01:35+02:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="184" LINES="14"]
+[1m[7m%[27m[1m[0m                                                                                                                                                                                        ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications]1;..-applications]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications\[0m[27m[24m[J[38;5;237m----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[113C [38;5;237mtturna@tturna-eos[00m[131D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mscript-answers[0m/  [J[01;34mtodo-app[0m/      [J[A[A[0m[27m[24m[52C[K[113C [38;5;237mtturna@tturna-eos[00m[131Ddd[90mocker run hello-world[39m[21D
+[J[0;2mshell function[0m
+[J[0mdebman     [Jdefault     [Jdetect-clipboard     [Jdiff     [Jdman     [Jdown-line-or-beginning-search     [J                 [A[A[0m[27m[24m[52Cd[90mocker run hello-world[39m[K[91C [38;5;237mtturna@tturna-eos[00m[130Dd[39mo
+[J[0;2mshell function[0m
+[J[0mdown-line-or-beginning-search[J[A[A[0m[27m[24m[52Cdo[90mcker run hello-world[39m[K[91C [38;5;237mtturna@tturna-eos[00m[129D[39mc[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;2mexternal command[0m
+[0mdocker        dockerd       docker-init   docker-proxy
+[J[0;2mcommon substring:[0m [30m[103mdocker[39m[49m[3A[0m[27m[24m[52Cdoc[90mker run hello-world[39m[K[91C [38;5;237mtturna@tturna-eos[00m[128D[39mk[39me[39mr
+[J[0;2mexternal command[0m
+[J[0mdockerd       [Jdocker-init   [Jdocker-proxy[J[A[A[0m[27m[24m[52Cdocker[90m run hello-world[39m[K[91C [38;5;237mtturna@tturna-eos[00m[125D[39m [39mr[39mu[39mn
+[J[0;2mcompletions[0m
+[J[0mrun[J[A[A[0m[27m[24m[52Cdocker run[90m hello-world[39m[K[91C [38;5;237mtturna@tturna-eos[00m[121D[39m 
+[J[0;2mcompletions[0m
+[J[0mhello-world:latest[J[A[A[0m[27m[24m[52Cdocker run [90mhello-world[39m[K[91C [38;5;237mtturna@tturna-eos[00m[120D[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [12D[90m hello-world[39m[12D
+[J[0;2mcompletions[0m
+[J[0mrun[J[A[A[0m[27m[24m[52Cdocker run[90m hello-world[39m[K[91C [38;5;237mtturna@tturna-eos[00m[121D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [13D[90mn hello-world[39m[13D
+[J[0;2mcompletions[0m
+[J[0mrun[J[A[A[0m[27m[24m[52Cdocker ru[90mn hello-world[39m[K[91C [38;5;237mtturna@tturna-eos[00m[122D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [14D[90mun hello-world[39m[14D
+[J[0;2mcompletions[0m
+[J[0mrename   [Jrestart  [Jrm       [Jrmi      [Jrun    [J[A[A[0m[27m[24m[52Cdocker r[90mun hello-world[39m[K[91C [38;5;237mtturna@tturna-eos[00m[123D [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [15Dc[90montainer run hello-world[39m[24D
+[J[0;2mcompletions[0m
+[J[0mcheckpoint  [Jcommit      [Jconfig      [Jcontainer   [Jcontext     [Jcp          [Jcreate    [J[A[A[0m[27m[24m[52Cdocker c[90montainer run hello-world[39m[K[81C [38;5;237mtturna@tturna-eos[00m[123D[39mt[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [23Donain
+[J[J[0;2mno matching `completions' completions[0m[A[0m[27m[24m[52Cdocker ctonain[K[99C [38;5;237mtturna@tturna-eos[00m[117D      [90montainer run hello-world[39m[24D
+[J[0;2mcompletions[0m
+[J[0mcheckpoint  [Jcommit      [Jconfig      [Jcontainer   [Jcontext     [Jcp          [Jcreate    [J[A[A[0m[27m[24m[52Cdocker c[90montainer run hello-world[39m[K[81C [38;5;237mtturna@tturna-eos[00m[123D[39mo
+[J[0;2mcompletions[0m
+[J[0mcommit     [Jconfig     [Jcontainer  [Jcontext  [J[A[A[0m[27m[24m[52Cdocker co[90mntainer run hello-world[39m[K[81C [38;5;237mtturna@tturna-eos[00m[122D[39mn[39mt
+[J[0;2mcompletions[0m
+[J[0mcontainer  [Jcontext  [J[A[A[0m[27m[24m[52Cdocker cont[90mainer run hello-world[39m[K[81C [38;5;237mtturna@tturna-eos[00m[120D[39ma[39mi[39mn
+[J[0;2mcompletions[0m
+[J[0mcontainer[J[A[A[0m[27m[24m[52Cdocker contain[90mer run hello-world[39m[K[81C [38;5;237mtturna@tturna-eos[00m[117D[39me[39mr[39m [39mr
+[J[0;2mcompletions[0m
+[J[0mrename   [Jrestart  [Jrm       [Jrun    [J[A[A[0m[27m[24m[52Cdocker container r[90mun hello-world[39m[K[81C [38;5;237mtturna@tturna-eos[00m[113D[39mu[39mn[39m 
+[J[0;2mcompletions[0m
+[J[0mhello-world:latest[J[A[A[0m[27m[24m[52Cdocker container run [90mhello-world[39m[K[81C [38;5;237mtturna@tturna-eos[00m[110D[39mh[39me[39ml[39ml[39mo[39m-[39mw[39mo[39mr[39ml[39md[?1l>[?2004l
+[J[A[84C
+[J]2;docker container run hello-world]1;docker
+Hello from Docker!
+This message shows that your installation appears to be working correctly.
+
+To generate this message, Docker took the following steps:
+ 1. The Docker client contacted the Docker daemon.
+ 2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
+    (amd64)
+ 3. The Docker daemon created a new container from that image which runs the
+    executable that produces the output you are currently reading.
+ 4. The Docker daemon streamed that output to the Docker client, which sent it
+    to your terminal.
+
+To try something more ambitious, you can run an Ubuntu container with:
+ $ docker run -it ubuntu bash
+
+Share images, automate workflows, and more with a free Docker ID:
+ https://hub.docker.com/
+
+For more examples and ideas, visit:
+ https://docs.docker.com/get-started/
+
+[1m[7m%[27m[1m[0m                                                                                                                                                                                        ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications]1;..-applications]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications\[0m[27m[24m[J[38;5;237m----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[113C [38;5;237mtturna@tturna-eos[00m[131D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mscript-answers[0m/  [J[01;34mtodo-app[0m/      [J[A[A[0m[27m[24m[52C[K[113C [38;5;237mtturna@tturna-eos[00m[131Ddd[90mocker container run hello-world[39m[31D
+[J[0;2mshell function[0m
+[J[0mdebman     [Jdefault     [Jdetect-clipboard     [Jdiff     [Jdman     [Jdown-line-or-beginning-search     [J                 [A[A[0m[27m[24m[52Cd[90mocker container run hello-world[39m[K[81C [38;5;237mtturna@tturna-eos[00m[130Dd[39mo
+[J[0;2mshell function[0m
+[J[0mdown-line-or-beginning-search[J[A[A[0m[27m[24m[52Cdo[90mcker container run hello-world[39m[K[81C [38;5;237mtturna@tturna-eos[00m[129D[39mc[39mk[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;2mexternal command[0m
+[0mdocker        dockerd       docker-init   docker-proxy
+[J[0;2mcommon substring:[0m [30m[103mdocker[39m[49m[3A[0m[27m[24m[52Cdock[90mer container run hello-world[39m[K[81C [38;5;237mtturna@tturna-eos[00m[127D[39me[39mr
+[J[0;2mexternal command[0m
+[J[0mdockerd       [Jdocker-init   [Jdocker-proxy[J[A[A[0m[27m[24m[52Cdocker[90m container run hello-world[39m[K[81C [38;5;237mtturna@tturna-eos[00m[125D[39m [39mr[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [24D[90mun hello-world[39m[14D
+[J[0;2mcompletions[0m
+[J[0mrename   [Jrestart  [Jrm       [Jrmi      [Jrun    [J[A[A[0m[27m[24m[52Cdocker r[90mun hello-world[39m[K[91C [38;5;237mtturna@tturna-eos[00m[123D[39mu[39mn
+[J[0;2mcompletions[0m
+[J[0mrun[J[A[A[0m[27m[24m[52Cdocker run[90m hello-world[39m[K[91C [38;5;237mtturna@tturna-eos[00m[121D[39m 
+[J[0;2mcompletions[0m
+[J[0mhello-world:latest[J[A[A[0m[27m[24m[52Cdocker run [90mhello-world[39m[K[91C [38;5;237mtturna@tturna-eos[00m[120D[39m-[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [10Di
+[J[0;2mcompletions[0m
+[J[0m-i[J[A[A[0m[27m[24m[52Cdocker run -i[K[100C [38;5;237mtturna@tturna-eos[00m[118Dt 
+[J[0;2mcompletions[0m
+[J[0mhello-world:latest[J[A[A[0m[27m[24m[52Cdocker run -it[K[99C [38;5;237mtturna@tturna-eos[00m[116Dubuntu 
+[J[0;2mcompletions[0m
+[J[0mhello-world:latest[J[A[A[0m[27m[24m[52Cdocker run -it ubuntu[K[92C [38;5;237mtturna@tturna-eos[00m[109Dbash
+[J[J[0;2mno matching `completions' completions[0m[A[0m[27m[24m[52Cdocker run -it ubuntu bash[K[87C [38;5;237mtturna@tturna-eos[00m[105D[?1l>[?2004l
+[J[A[78C
+[J]2;docker run -it ubuntu bash]1;dockerUnable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2Kbccd10f490ab: Pulling fs layer [1B[1A[2Kbccd10f490ab: Downloading [>                                                  ]  310.6kB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [==>                                                ]  1.243MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [====>                                              ]  2.485MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [======>                                            ]  3.722MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [=======>                                           ]  4.639MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [=========>                                         ]  5.884MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [============>                                      ]  7.121MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [=============>                                     ]  8.047MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [===============>                                   ]  9.284MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [=================>                                 ]  10.52MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [===================>                               ]  11.76MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [======================>                            ]     13MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [========================>                          ]  14.25MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [=========================>                         ]  15.18MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [===========================>                       ]  16.12MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [=============================>                     ]  17.36MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [===============================>                   ]  18.59MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [=================================>                 ]  19.52MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [==================================>                ]  20.44MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [====================================>              ]  21.38MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [======================================>            ]   22.6MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [=======================================>           ]  23.53MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [=========================================>         ]  24.77MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [============================================>      ]     26MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [=============================================>     ]  26.93MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [===============================================>   ]  28.17MB/29.54MB[1B[1A[2Kbccd10f490ab: Downloading [=================================================> ]  29.41MB/29.54MB[1B[1A[2Kbccd10f490ab: Download complete [1B[1A[2Kbccd10f490ab: Extracting [>                                                  ]  327.7kB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [===>                                               ]  1.966MB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [======>                                            ]  3.604MB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [========>                                          ]  5.243MB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [============>                                      ]  7.209MB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [=============>                                     ]  7.864MB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [===============>                                   ]  9.175MB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [==================>                                ]  10.81MB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [=====================>                             ]  12.45MB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [=======================>                           ]  14.09MB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [==========================>                        ]  15.73MB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [=============================>                     ]  17.37MB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [================================>                  ]  19.33MB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [=====================================>             ]  22.28MB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [=========================================>         ]  24.25MB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [===========================================>       ]  25.56MB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [=============================================>     ]  26.87MB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [===============================================>   ]  27.85MB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [================================================>  ]  28.84MB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [=================================================> ]  29.49MB/29.54MB[1B[1A[2Kbccd10f490ab: Extracting [==================================================>]  29.54MB/29.54MB[1B[1A[2Kbccd10f490ab: Pull complete [1BDigest: sha256:77906da86b60585ce12215807090eb327e7386c8fafb5402369e421f44eff17e
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@7d2324182ba2: /root@7d2324182ba2:/# mkdir /usr/source/app
+[?2004lmkdir: cannot create directory '/usr/source/app': No such file or directory
+[?2004h]0;root@7d2324182ba2: /root@7d2324182ba2:/# mkdir /usr/source/app[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1Pp[K[K    an mkdir
+[?2004lThis system has been minimized by removing packages and content that are
+not required on a system that users do not log into.
+
+To restore this content, including manpages, you can run the 'unminimize'
+command. You will still need to ensure the 'man-db' package is installed.
+[?2004h]0;root@7d2324182ba2: /root@7d2324182ba2:/# man mkdirkdir /usr/source/app [1@ [1@-[1@p
+[?2004l[?2004h]0;root@7d2324182ba2: /root@7d2324182ba2:/# cd /usr/source/app
+[?2004l[?2004h]0;root@7d2324182ba2: /usr/source/approot@7d2324182ba2:/usr/source/app# touch index.js
+[?2004l[?2004h]0;root@7d2324182ba2: /usr/source/approot@7d2324182ba2:/usr/source/app# exit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                                                                                                                                        ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications]1;..-applications]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications\[0m[27m[24m[J[38;5;237m----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[113C [38;5;237mtturna@tturna-eos[00m[131D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mscript-answers[0m/  [J[01;34mtodo-app[0m/      [J[A[A[0m[27m[24m[52C[K[113C [38;5;237mtturna@tturna-eos[00m[131Dee[90mxit[39m
+[J[0;2malias[0m
+[J[0megrep[J[A[A[0m[27m[24m[52Ce[90mxit[39m[K[109C [38;5;237mtturna@tturna-eos[00m[130De[39mx
+[J[0;2mshell function[0m
+[J[0mexpand-or-complete-with-dots[J[A[A[0m[27m[24m[52Cex[90mit[39m[K[109C [38;5;237mtturna@tturna-eos[00m[129D[39mi
+[J[0;2mbuiltin command[0m
+[J[0mexit[J[A[A[0m[27m[24m[52Cexi[90mt[39m[K[109C [38;5;237mtturna@tturna-eos[00m[128D[39mt
+[J[0;2mshell function[0m
+[J[0mazhw:zle-isearch-exit[J[A[A[0m[27m[24m[52Cexit[K[109C [38;5;237mtturna@tturna-eos[00m[127D[?1l>[?2004l
+[J[A[56C
+[J]2;exit]1;exit
+Script done on 2024-03-07 12:03:46+02:00 [COMMAND_EXIT_CODE="0"]
