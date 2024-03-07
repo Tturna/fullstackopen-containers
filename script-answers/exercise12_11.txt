@@ -1,0 +1,105 @@
+Script started on 2024-03-07 18:24:06+02:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="113" LINES="55"]
+[1m[7m%[27m[1m[0m                                                                                                                 ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications/todo-app/todo-backend\[0m[27m[24m[J[38;5;237m-----------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications/todo-app/todo-backend [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[20C [38;5;237mtturna@tturna-eos[00m[38D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74C[K[20C [38;5;237mtturna@tturna-eos[00m[38Ddd[90mocker compose -f docker-compose.dev.ym[90ml[90m up[39m[K[A[71C[1B
+[J[0;2mshell function[0m
+[J[0mdebman   [Jdefault   [Jdetect-clipboard   [Jdiff   [Jdman   [Jdown-line-or-beginning-search   [J[3A[0m[27m[24m[74Cd[90mocker compose -f docker-compose.dev.ym[90ml[90m up[39m[K[A[71Cd[39mo[1B
+[J[0;2mshell function[0m
+[J[0mdown-line-or-beginning-search[J[3A[0m[27m[24m[74Cdo[90mcker compose -f docker-compose.dev.ym[90ml[90m up[39m[K[A[72C[39mc[30m[103m[39m[49m[30m[103m[39m[49m[1B
+[J[0;2mexternal command[0m
+[0mdocker          docker-compose  dockerd         docker-init     docker-proxy  
+[J[0;2mcommon substring:[0m [30m[103mdocker[39m[49m[4A[0m[27m[24m[74Cdoc[90mker compose -f docker-compose.dev.ym[90ml[90m up[39m[K[A[73C[39mk[30m[103m[39m[49m[30m[103m[39m[49m[1B
+[J[0;2mexternal command[0m
+[0mdocker          docker-compose  dockerd         docker-init     docker-proxy  
+[J[0;2mcommon substring:[0m [30m[103mdocker[39m[49m[4A[0m[27m[24m[74Cdock[90mer compose -f docker-compose.dev.ym[90ml[90m up[39m[K[A[74C[39me[39mr[1B
+[J[0;2mexternal command[0m
+[J[0mdocker-compose  [Jdockerd         [Jdocker-init     [Jdocker-proxy  [J[3A[0m[27m[24m[74Cdocker[90m compose -f docker-compose.dev.ym[90ml[90m up[39m[K[A[76C[39m [1B
+[J[0;2mcompletions[0m
+[0mattach  build    builder  checkpoint  commit   compose  config   container  context  cp       create  diff
+events  exec     export   help        history  image    images   import     info     inspect  kill    load
+login   logout   logs     manifest    network  node     pause    plugin     port     ps       pull    push
+rename  restart  rm       rmi         run      save     search   secret     service  stack    start   stats
+[Jstop    [Jswarm    [Jsystem   [Jtag         [Jtop      [Jtrust    [Junpause  [Jupdate     [Jversion  [Jvolume   [Jwait    [J   [7A[0m[27m[24m[74Cdocker [90mcompose -f docker-compose.dev.ym[90ml[90m up[39m[K[A[77C[39md[K[12C [38;5;237mtturna@tturna-eos[00m[1B[K[A[82Compo[1B[J[J[0;2mno matching `completions' completions[0m[A[0m[27m[24m[74Cdocker dompo[K[8C [38;5;237mtturna@tturna-eos[00m[26D    [90miff upbeat_perlman[39m[K[18D
+[J[0;2mcompletions[0m
+[J[0mdiff[J[A[A[0m[27m[24m[74Cdocker d[90miff upbeat_perlman[39m[K[18D[K[13C [38;5;237mtturna@tturna-eos[00m[31Dc[90mompose -f docker-compose.dev.ym[90ml[90m up[39m[K[A[78C[39mo[39mn[K[10C [38;5;237mtturna@tturna-eos[00m[1B[K[A[84Ct[90mainer ls[39m[8D[1B[J[0;2mcompletions[0m
+[J[0mcontainer  [Jcontext  [J[A[A[0m[27m[24m[74Cdocker cont[90mainer ls[39m[K[1C [38;5;237mtturna@tturna-eos[00m[27D[39ma[90ma[90mi[90mn[90me[90mr[90m [90ml[90ms[39m[K[8D[39mi[K[7C [38;5;237mtturna@tturna-eos[00m[25Dn[90mer ls[39m[39me[39mr
+[J[0;2mcompletions[0m
+[J[0mcontainer[J[A[A[0m[27m[24m[74Cdocker container[90m ls[39m[K[1C [38;5;237mtturna@tturna-eos[00m[22D[39m [39ml[39ms
+[J[0;2mcompletions[0m
+[J[0mls[J[A[A[0m[27m[24m[74Cdocker container ls[K[1C [38;5;237mtturna@tturna-eos[00m[19D[?1l>[?2004l
+[J[A[93C
+[J]2;docker container ls]1;dockerCONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS         PORTS                                         NAMES
+3ed1546193ef   mongo     "docker-entrypoint.s…"   27 minutes ago   Up 9 minutes   0.0.0.0:3456->27017/tcp, :::3456->27017/tcp   todo-backend-mongo-1
+7275824e3e74   redis     "docker-entrypoint.s…"   27 minutes ago   Up 9 minutes   0.0.0.0:6378->6379/tcp, :::6378->6379/tcp     todo-backend-redis-1
+[1m[7m%[27m[1m[0m                                                                                                                 ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications/todo-app/todo-backend\[0m[27m[24m[J[38;5;237m-----------------------------------------------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications/todo-app/todo-backend [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[20C [38;5;237mtturna@tturna-eos[00m[38D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mbin[0m/           [J[01;34mmongo[0m/         [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/         [J[01;34mroutes[0m/        [J[01;34mutil[0m/        [J[A[A[0m[27m[24m[74C[K[20C [38;5;237mtturna@tturna-eos[00m[38Dddo[90mcker container ls[39m[17D
+[J[0;2mshell function[0m
+[J[0mdown-line-or-beginning-search[J[A[A[0m[27m[24m[74Cdo[90mcker container ls[39m[K[1C [38;5;237mtturna@tturna-eos[00m[36D[39mc[39mk[30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;2mexternal command[0m
+[0mdocker          docker-compose  dockerd         docker-init     docker-proxy  
+[J[0;2mcommon substring:[0m [30m[103mdocker[39m[49m[3A[0m[27m[24m[74Cdock[90mer container ls[39m[K[1C [38;5;237mtturna@tturna-eos[00m[34D[39me[39mr
+[J[0;2mexternal command[0m
+[J[0mdocker-compose  [Jdockerd         [Jdocker-init     [Jdocker-proxy  [J[A[A[0m[27m[24m[74Cdocker[90m container ls[39m[K[1C [38;5;237mtturna@tturna-eos[00m[32D[39m [39me[39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [39m [11D[90mxec -it todo-backend-mongo-1 ba[90ms[90mh[39m[K[A[80C[1B
+[J[0;2mcompletions[0m
+[J[0mevents  [Jexec    [Jexport[J[3A[0m[27m[24m[74Cdocker e[90mxec -it todo-backend-mongo-1 ba[90ms[90mh[39m[K[A[80C[39mx[1B
+[J[0;2mcompletions[0m
+[J[0mexec    [Jexport[J[3A[0m[27m[24m[74Cdocker ex[90mec -it todo-backend-mongo-1 ba[90ms[90mh[39m[K[A[81C[39me[39mc[1B
+[J[0;2mcompletions[0m
+[J[0mexec[J[3A[0m[27m[24m[74Cdocker exec[90m -it todo-backend-mongo-1 ba[90ms[90mh[39m[K[A[83C[39m [30m[103m[39m[49m[30m[103m[39m[49m[1B
+[J[0;2mcompletions[0m
+[0mtodo-backend-mongo-1  todo-backend-redis-1
+[J[0;2mcommon substring:[0m [30m[103mtodo-backend-[39m[49m[4A[0m[27m[24m[74Cdocker exec [90m-it todo-backend-mongo-1 ba[90ms[90mh[39m[K[A[84C[39m-[1B
+[J[0;2mcompletions[0m
+[0m-d  --detach   --detach-keys  -e  --env  --env-file  -i  --interactive  --privileged  -t  --tty  -u  --user
+[J-w  [J--workdir  [J                                                                      [4A[0m[27m[24m[74Cdocker exec -[90mit todo-backend-mongo-1 ba[90ms[90mh[39m[K[A[85C[39mi[39mt[39m [30m[103m[39m[49m[30m[103m[39m[49m[1B
+[J[0;2mcompletions[0m
+[0mtodo-backend-mongo-1  todo-backend-redis-1
+[J[0;2mcommon substring:[0m [30m[103mtodo-backend-[39m[49m[4A[0m[27m[24m[74Cdocker exec -it [90mtodo-backend-mongo-1 ba[90ms[90mh[39m[K[A[88C[39mr[K[3C [38;5;237mtturna@tturna-eos[00m[1B[K[A[91Ce[1B[J[0;2mcompletions[0m
+[J[0mtodo-backend-redis-1[J[A[A[0m[27m[24m[74Cdocker exec -it re[K[2C [38;5;237mtturna@tturna-eos[00m[20Ddtodo-backend-redis-1[K
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-redis-1[J[A[A[0m[27m[24m[74Cdocker exec -it todo-backend-redis-1[K
+[J[0;2mcompletions[0m
+[J[0mtodo-backend-redis-1[J[A[A[0m[27m[24m[74Cdocker exec -it todo-backend-redis-1[K [30m[103m[39m[49m[30m[103m[39m[49m
+[J[0;2mcompletions[0m
+[0mtodo-backend-mongo-1  todo-backend-redis-1
+[J[0;2mcommon substring:[0m [30m[103mtodo-backend-[39m[49m[3A[0m[27m[24m[74Cdocker exec -it todo-backend-redis-1[K[1Cba [Kssh
+[J[J[0;2mno matching `completions' completions[0m[A[A[0m[27m[24m[74Cdocker exec -it todo-backend-redis-1 bash[K[?1l>[?2004l
+[J[A[2C
+[J]2;docker exec -it todo-backend-redis-1 bash]1;docker[?2004hroot@7275824e3e74:/data# redis-cli
+[?2004l127.0.0.1:6379> [0K127.0.0.1:6379> K[17C[0K127.0.0.1:6379> KY[18C[0K127.0.0.1:6379> KYE[19C[0K127.0.0.1:6379> KYES[20C[0K127.0.0.1:6379> KYES [21C[0K127.0.0.1:6379> KYES[20C[0K127.0.0.1:6379> KYE[19C[0K127.0.0.1:6379> KY[18C[0K127.0.0.1:6379> K[17C[0K127.0.0.1:6379> KE[18C[0K127.0.0.1:6379> KEY[19C[0K127.0.0.1:6379> KEYS[20C[0K127.0.0.1:6379> KEYS [0;90;49mpattern[0m[21C[0K127.0.0.1:6379> KEYS *[0;90;49m pattern[0m[22C[0K127.0.0.1:6379> KEYS *[22C
+1) "added_todos"
+127.0.0.1:6379> [0K127.0.0.1:6379> G[17C[0K127.0.0.1:6379> GE[18C[0K127.0.0.1:6379> GET[19C[0K127.0.0.1:6379> GET [0;90;49mkey[0m[20C[0K127.0.0.1:6379> GET a[0;90;49m key[0m[21C[0K127.0.0.1:6379> GET ad[0;90;49m key[0m[22C[0K127.0.0.1:6379> GET add[0;90;49m key[0m[23C[0K127.0.0.1:6379> GET adde[0;90;49m key[0m[24C[0K127.0.0.1:6379> GET added[0;90;49m key[0m[25C[0K127.0.0.1:6379> GET added_[0;90;49m key[0m[26C[0K127.0.0.1:6379> GET added_t[0;90;49m key[0m[27C[0K127.0.0.1:6379> GET added_to[0;90;49m key[0m[28C[0K127.0.0.1:6379> GET added_tod[0;90;49m key[0m[29C[0K127.0.0.1:6379> GET added_todo[0;90;49m key[0m[30C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"2"
+127.0.0.1:6379> [0K127.0.0.1:6379> S[17C[0K127.0.0.1:6379> SE[18C[0K127.0.0.1:6379> SET[19C[0K127.0.0.1:6379> SET [0;90;49mkey value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-mil[0m[20C[0K127.0.0.1:6379> SET a[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-m[0m[21C[0K127.0.0.1:6379> SET ad[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-[0m[22C[0K127.0.0.1:6379> SET add[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time[0m[23C[0K127.0.0.1:6379> SET adde[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-tim[0m[24C[0K127.0.0.1:6379> SET added[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-ti[0m[25C[0K127.0.0.1:6379> SET added_[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-t[0m[26C[0K127.0.0.1:6379> SET added_t[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-[0m[27C[0K127.0.0.1:6379> SET added_to[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix[0m[28C[0K127.0.0.1:6379> SET added_tod[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT uni[0m[29C[0K127.0.0.1:6379> SET added_todo[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT un[0m[30C[0K127.0.0.1:6379> SET added_todos[0;90;49m key value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT u[0m[31C[0K127.0.0.1:6379> SET added_todos [0;90;49mvalue [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-[0m[32C[0K127.0.0.1:6379> SET added_todos 9[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT uni[0m[33C[0K127.0.0.1:6379> SET added_todos 90[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT un[0m[34C[0K127.0.0.1:6379> SET added_todos 900[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT u[0m[35C[0K127.0.0.1:6379> SET added_todos 9001[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT [0m[36C[0K127.0.0.1:6379> SET added_todos 9001[36C
+OK
+127.0.0.1:6379> [0K127.0.0.1:6379> SET added_todos 9001[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT [0m[36C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"9001"
+127.0.0.1:6379> [0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"9002"
+127.0.0.1:6379> [0K127.0.0.1:6379> D[17C[0K127.0.0.1:6379> DE[18C[0K127.0.0.1:6379> DEL[19C[0K127.0.0.1:6379> DEL [0;90;49mkey [key ...][0m[20C[0K127.0.0.1:6379> DEL a[0;90;49m key [key ...][0m[21C[0K127.0.0.1:6379> DEL ad[0;90;49m key [key ...][0m[22C[0K127.0.0.1:6379> DEL add[0;90;49m key [key ...][0m[23C[0K127.0.0.1:6379> DEL adde[0;90;49m key [key ...][0m[24C[0K127.0.0.1:6379> DEL added[0;90;49m key [key ...][0m[25C[0K127.0.0.1:6379> DEL added_[0;90;49m key [key ...][0m[26C[0K127.0.0.1:6379> DEL added_t[0;90;49m key [key ...][0m[27C[0K127.0.0.1:6379> DEL added_to[0;90;49m key [key ...][0m[28C[0K127.0.0.1:6379> DEL added_tod[0;90;49m key [key ...][0m[29C[0K127.0.0.1:6379> DEL added_todo[0;90;49m key [key ...][0m[30C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> DEL added_todos[31C
+(integer) 1
+127.0.0.1:6379> [0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+(nil)
+127.0.0.1:6379> [0K127.0.0.1:6379> GET added_todos[0;90;49m key[0m[31C[0K127.0.0.1:6379> GET added_todos[31C
+"1"
+127.0.0.1:6379> [0K127.0.0.1:6379> e[17C[0K127.0.0.1:6379> ex[18C[0K127.0.0.1:6379> exi[19C[0K127.0.0.1:6379> exit[20C[0K127.0.0.1:6379> exit[20C
+[?2004hroot@7275824e3e74:/data# exit
+[?2004lexit
+[1m[7m%[27m[1m[0m                                                                         ]2;tturna@tturna-eos:~/gitrepos/part12-containers-applications/todo-app/todo-backend]1;../todo-backend]7;file://tturna-eos/home/tturna/gitrepos/part12-containers-applications/todo-app/todo-backend\[0m[27m[24m[J[38;5;237m-------------------------------------------------------------------------[00m
+[38;5;032m~/gitrepos/part12-containers-applications/todo-app/todo-backend [38;5;075m([38;5;078mmain[38;5;214m*[00m[38;5;075m)[00m [38;5;105m»[00m [K[53C [38;5;237mtturna@tturna-eos[00m[71D[?1h=[6n[?2004h
+[0;2mdirectory[0m
+[J[01;34mbin[0m/  [J[01;34mmongo[0m/  [J[01;34mnode_modules[0m/  [J[01;34mredis[0m/  [J[01;34mroutes[0m/  [J[01;34mutil[0m/  [J[A[A[0m[27m[24m[1C[K[53C [38;5;237mtturna@tturna-eos[00m[71Dee[90mxit[39m
+[J[0;2malias[0m
+[J[0megrep[J[A[A[0m[27m[24m[1Ce[90mxit[39m[K[49C [38;5;237mtturna@tturna-eos[00m[70De[39mx
+[J[0;2mshell function[0m
+[J[0mexpand-or-complete-with-dots[J[A[A[0m[27m[24m[1Cex[90mit[39m[K[49C [38;5;237mtturna@tturna-eos[00m[69D[39mi
+[J[0;2mbuiltin command[0m
+[J[0mexit[J[A[A[0m[27m[24m[1Cexi[90mt[39m[K[49C [38;5;237mtturna@tturna-eos[00m[68D[39mt
+[J[0;2mshell function[0m
+[J[0mazhw:zle-isearch-exit[J[A[A[0m[27m[24m[1Cexit[K[49C [38;5;237mtturna@tturna-eos[00m[67D[?1l>[?2004l
+[J[A[5C
+[J]2;exit]1;exit
+Script done on 2024-03-07 18:28:00+02:00 [COMMAND_EXIT_CODE="0"]
