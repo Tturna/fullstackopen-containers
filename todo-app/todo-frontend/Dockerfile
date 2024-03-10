@@ -1,3 +1,12 @@
+FROM node:16 AS test-stage
+WORKDIR /usr/src/app
+
+COPY . .
+
+ENV NODE_ENV=test
+
+RUN CI=true npm run test
+
 FROM node:16 AS build-stage
 WORKDIR /usr/src/app
 
