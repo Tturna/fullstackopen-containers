@@ -1,0 +1,26 @@
+services:
+  app-front:
+    image: bloglist-front
+    build:
+      context: ./frontend/.
+    volumes:
+      - ./frontend:/usr/src/app
+    container_name: bloglist-front
+
+  app-back:
+    image: bloglist-back
+    build:
+      context: ./backend/.
+    volumes:
+      - ./backend:/usr/src/app
+    container_name: bloglist-back
+
+  nginx:
+    image: nginx:1.20.1
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8080:80
+    container_name: reverse-proxy
+    depends_on:
+      - app-front
